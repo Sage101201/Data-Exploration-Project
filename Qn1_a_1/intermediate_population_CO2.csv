@@ -1,0 +1,5 @@
+"Age_category","Male_Average_CO2_Generation_L_s","Female_Average_CO2_Generation_L_s","All_Average_CO2_Generation_L_s"
+"Child",0.0034,0.00315,0.003275
+"Teen",0.00715,0.00585,0.0065
+"Adult",0.00775,0.00605,0.0069
+"Old",0.00633333333333333,0.00526666666666667,0.0058

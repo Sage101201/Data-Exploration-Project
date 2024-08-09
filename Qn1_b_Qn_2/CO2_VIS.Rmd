@@ -1,0 +1,359 @@
+---
+title: "CO2_VIS"
+author: "Anish S (34113339)"
+date: "2024-04-26"
+output: html_document
+---
+```{r}
+D1 = read.csv("small-areas-for-census-of-land-use-and-employment-clue.csv")
+D2 = read.csv("final_population_CO2.csv")
+D3 = read.csv("final_energy.csv")
+D4 = read.csv("final_tree.csv")
+```
+
+```{r}
+D1
+```
+
+```{r}
+D2
+```
+
+```{r}
+library(dplyr)
+
+# Rename the column
+D2 <- D2 %>%
+  rename(featurenam = SA2.name)
+
+D2
+```
+
+```{r}
+# Filter out rows where Gender is 'A'
+D2_filtered <- D2 %>%
+  filter(Gender == 'A')
+
+D2_filtered
+```
+
+```{r}
+D3 <- D3 %>%
+  rename(Year = year)
+
+D3
+```
+
+```{r}
+D4
+```
+
+```{r}
+D2_merged <- merge(D1, D2_filtered, by = "featurenam", all.x = TRUE)
+
+D2_merged
+```
+
+```{r}
+# Group by Year and featurenam, and then summarize the data
+D2_merged_grouped <- D2_merged %>%
+  group_by(Year, featurenam) %>%
+  summarise(
+    Population_Count = sum(Population_Count, na.rm = TRUE),
+    CO2_generated_ML_yr = sum(CO2_generated_ML_yr, na.rm = TRUE),
+    CO2_generated_tonnes_yr = sum(CO2_generated_tonnes_yr, na.rm = TRUE)
+    # Add more summarization as needed for other columns
+  ) %>%
+  select(Year, featurenam, Population_Count, CO2_generated_tonnes_yr)
+
+D2_merged_grouped
+```
+
+```{r}
+D3_merged <- merge(D1, D3, by = "featurenam", all.x = TRUE)
+
+D3_merged
+```
+
+```{r}
+# Group by Year and featurenam, and then summarize the data
+D3_merged_grouped <- D3_merged %>%
+  group_by(Year, featurenam) %>%
+  summarise(
+    energy_tJ = sum(energy_tJ, na.rm = TRUE),
+    CO2_offset_tonnes = sum(CO2_offset_tonnes, na.rm = TRUE)
+    # Add more summarization as needed for other columns
+  ) %>%
+  select(Year, featurenam, energy_tJ, CO2_offset_tonnes)
+
+D3_merged_grouped
+```
+
+```{r}
+D4_merged <- merge(D1, D4, by = "featurenam", all.x = TRUE)
+
+D4_merged
+```
+
+```{r}
+D4_selected = D4_merged %>%
+  select(featurenam, no_trees, sum_CLUEArea_CO2offset_tonnes, `Geo.Point`, `Geo.Shape`)
+
+D4_selected
+```
+
+```{r}
+D2_D3_merged_grouped <- merge(D2_merged_grouped, D3_merged_grouped, by = c("Year", "featurenam"), all.x = TRUE) %>%
+  rename(Population_CO2_tonnes = CO2_generated_tonnes_yr) %>%
+  rename(Energy_CO2_tonnes = CO2_offset_tonnes)
+
+D2_D3_merged_grouped
+```
+
+```{r}
+all_merged <- merge(D2_D3_merged_grouped, D4_selected, by = "featurenam", all.x = TRUE) %>%
+  rename(Trees_CO2_absorbed_tonnes = sum_CLUEArea_CO2offset_tonnes) %>%
+  select(Year, featurenam, Population_CO2_tonnes, Energy_CO2_tonnes, Trees_CO2_absorbed_tonnes) %>%
+  rename(CLUE_Areas = featurenam)
+
+all_merged
+```
+
+```{r}
+# Specify the file path where you want to save the CSV file
+file_path <- "final_merged_CO2.csv"
+
+# Write the dataframe to a CSV file
+write.csv(all_merged, file = file_path, row.names = FALSE)
+```
+
+```{r}
+# Calculate the new column 'Total_CO2offset_tonnes'
+all_merged$Total_CO2offset_tonnes <- all_merged$Population_CO2_tonnes + all_merged$Energy_CO2_tonnes - all_merged$Trees_CO2_absorbed_tonnes
+
+all_merged
+```
+
+```{r}
+summary_df <- all_merged %>%
+  group_by(CLUE_Areas) %>%
+  summarise(
+    Total_Population_CO2 = sum(Population_CO2_tonnes),
+    Total_Energy_CO2 = sum(Energy_CO2_tonnes),
+    Total_Trees_CO2_absorbed = sum(Trees_CO2_absorbed_tonnes),
+    Total_CO2offset_tonnes = sum(Total_CO2offset_tonnes)
+  ) %>%
+  select(CLUE_Areas, Total_CO2offset_tonnes) %>%
+  rename(featurenam = CLUE_Areas)
+
+
+summary_df
+```
+
+```{r}
+final_df <- merge(summary_df, D1, by = "featurenam", all.x = TRUE) %>%
+  select(featurenam, Total_CO2offset_tonnes, `Geo.Point`, `Geo.Shape`) %>%
+  rename(CLUE_Areas = featurenam)
+
+final_df
+```
+
+```{r}
+# Specify the file path where you want to save the CSV file
+file_path <- "final_total_CO2.csv"
+
+# Write the dataframe to a CSV file
+write.csv(final_df, file = file_path, row.names = FALSE)
+```
+
+```{r}
+library(sf)
+library(geojsonio)
+
+final_df <- separate(final_df, `Geo.Point`, into = c("latitude", "longitude"), sep = ",")
+
+# Create a spatial dataframe from a dataframe with longitude and latitude columns
+spatial_df <- st_as_sf(final_df, coords = c("longitude", "latitude"), crs = 4326)
+
+
+# Write the spatial dataframe to a GeoJSON file
+geojson_write(spatial_df, file = "final_total_CO2.geojson")
+```
+
+```{r}
+region_data <- st_read("small-areas-for-census-of-land-use-and-employment-clue.geojson")
+region_join <- st_join(region_data, data_sf)
+```
+
+```{r}
+region_join
+```
+
+
+```{r}
+library(sf)
+library(ggplot2)
+library(tidyr)
+
+# Read CSV data
+data <- read.csv("final_total_CO2.csv")
+
+# Convert to sf object
+# Split Geo Point column into latitude and longitude columns
+data <- separate(data, `Geo.Point`, into = c("latitude", "longitude"), sep = ",")
+
+# Convert property_data to sf object
+data_sf <- st_as_sf(data, coords = c("longitude", "latitude"), crs = 4326)
+
+data_sf
+```
+
+```{r}
+library(viridis)
+my_palette <- viridis_pal(option = "D")(13)
+
+# Plotting the map with a custom color palette
+CO2_PLOT <- ggplot() +
+  geom_sf(data = region_data, aes(fill = featurenam)) +
+  geom_sf(data = data_sf, aes(fill = CLUE_Areas), color = "black") +
+  scale_fill_manual(values = my_palette) +  # Use the custom color palette
+  geom_sf(data = data_sf, aes(size = Total_CO2offset_tonnes), color = "black", shape = 21, fill = "lightblue", alpha = 0.7) +
+  scale_size_continuous(range = c(1, 10)) +
+  labs(title = "CO2 Offset from 2011 - 2021 in CLUE Areas of Melbourne City", size = "CO2 Offset (tonnes)", fill = "Region") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 12, face = "bold", hjust = 0.5, margin = margin(t = 20, b = 20)),
+    legend.title = element_text(size = 12, face = "bold"),
+    legend.text = element_text(size = 5),
+    legend.position = "left",  # Adjust legend position
+    legend.key.size = unit(0.5, "cm"),  # Adjust legend key size
+    plot.margin = margin(t = 50, r = 30, b = 20, l = 20, unit = "pt")  # Adjust plot margins
+  )
+
+CO2_PLOT
+```
+
+```{r}
+ggsave("CO2_Plot.png", CO2_PLOT, width = 15, height = 10, units = "in", dpi = 300, bg = "white")
+```
+
+```{r}
+all_merged
+```
+
+```{r}
+library(dplyr)
+library(forecast)
+
+df = all_merged
+
+# Convert Year to a date format
+df$Year <- as.Date(paste0(df$Year, "-01-01"))
+```
+
+```{r}
+# Function to perform forecasting for a specific CLUE_Areas
+forecast_area <- function(area) {
+  # Subset data for the current area
+  df_subset <- df %>% filter(CLUE_Areas == area)
+  
+  # Create time series objects
+  ts_population <- ts(df_subset$Population_CO2_tonnes, start = min(df_subset$Year), frequency = 1)
+  ts_energy <- ts(df_subset$Energy_CO2_tonnes, start = min(df_subset$Year), frequency = 1)
+  ts_trees <- ts(df_subset$Trees_CO2_absorbed_tonnes, start = min(df_subset$Year), frequency = 1)
+  ts_total_offset <- ts(df_subset$Total_CO2offset_tonnes, start = min(df_subset$Year), frequency = 1)
+  
+  # Fit ARIMA models
+  arima_population <- auto.arima(ts_population)
+  arima_energy <- auto.arima(ts_energy)
+  arima_trees <- auto.arima(ts_trees)
+  arima_total_offset <- auto.arima(ts_total_offset)
+  
+  # Forecast values for 2024
+  forecast_population <- forecast(arima_population, h = 3)  # Forecast 3 years ahead (up to 2024)
+  forecast_energy <- forecast(arima_energy, h = 3)
+  forecast_trees <- forecast(arima_trees, h = 3)
+  forecast_total_offset <- forecast(arima_total_offset, h = 3)
+  
+  # Create dataframe for forecasted values
+  forecast_values <- data.frame(
+    CLUE_Areas = area,
+    Year = rep(2024, 3),
+    Population_CO2_tonnes = forecast_population$mean,
+    Energy_CO2_tonnes = forecast_energy$mean,
+    Trees_CO2_absorbed_tonnes = forecast_trees$mean,
+    Total_CO2offset_tonnes = forecast_total_offset$mean
+  )
+  
+  return(forecast_values)
+}
+
+# Apply forecasting function to each CLUE_Areas
+forecast_results <- lapply(unique(df$CLUE_Areas), forecast_area)
+
+```
+
+```{r}
+forecast_results
+```
+
+```{r}
+# Initialize an empty list to store randomly selected rows
+selected_rows <- list()
+
+# Iterate through each dataframe in forecast_results
+for (result_df in forecast_results) {
+  # Randomly select one row from the dataframe
+  selected_row <- result_df[sample(nrow(result_df), 1), ]
+  # Append the selected row to the list
+  selected_rows[[length(selected_rows) + 1]] <- selected_row
+}
+
+# Combine selected rows into a single dataframe
+selected_forecast_values <- do.call(rbind, selected_rows)
+
+
+selected_forecast_values
+
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+# Convert Year column in df to numeric (extract year component)
+df <- df %>%
+  mutate(Year = as.numeric(format(Year, "%Y")))
+
+# Append selected_forecast_values to df
+appended_data <- bind_rows(df, selected_forecast_values)
+
+# Plot the data points for the last column in appended_data, highlighting 2024 year points
+Forcast <- ggplot(appended_data, aes(x = Year, y = Total_CO2offset_tonnes, color = CLUE_Areas)) +
+  geom_point(aes(size = ifelse(Year == 2024, 3, 1)), shape = 21, fill = "white") +
+  geom_line() +
+  labs(title = "Total CO2 Offset by CLUE_Areas and Year",
+       x = "Year",
+       y = "Total CO2 Offset (tonnes)",
+       color = "CLUE_Areas") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom") +  # Rotate x-axis labels for better readability
+  scale_size_continuous(range = c(3, 5)) +
+  scale_x_continuous(breaks = unique(appended_data$Year), labels = unique(appended_data$Year)) +
+  guides(size = FALSE)
+
+Forcast
+```
+
+```{r}
+ggsave("Forcast.png", Forcast, width = 15, height = 10, units = "in", dpi = 300, bg = "white")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

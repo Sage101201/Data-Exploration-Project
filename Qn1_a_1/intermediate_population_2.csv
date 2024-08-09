@@ -1,0 +1,2377 @@
+"Year","SA2.name","Gender","Age_category","Population_Count"
+2011,"Carlton","M","Child",411
+2011,"Carlton","M","Teen",758
+2011,"Carlton","M","Adult",5551
+2011,"Carlton","M","Old",576
+2011,"Carlton","F","Child",375
+2011,"Carlton","F","Teen",913
+2011,"Carlton","F","Adult",5954
+2011,"Carlton","F","Old",584
+2011,"Carlton","A","Child",786
+2011,"Carlton","A","Teen",1671
+2011,"Carlton","A","Adult",11505
+2011,"Carlton","A","Old",1160
+2011,"Docklands","M","Child",146
+2011,"Docklands","M","Teen",148
+2011,"Docklands","M","Adult",2664
+2011,"Docklands","M","Old",341
+2011,"Docklands","F","Child",146
+2011,"Docklands","F","Teen",166
+2011,"Docklands","F","Adult",2337
+2011,"Docklands","F","Old",248
+2011,"Docklands","A","Child",292
+2011,"Docklands","A","Teen",314
+2011,"Docklands","A","Adult",5001
+2011,"Docklands","A","Old",589
+2011,"East Melbourne","M","Child",112
+2011,"East Melbourne","M","Teen",82
+2011,"East Melbourne","M","Adult",1822
+2011,"East Melbourne","M","Old",493
+2011,"East Melbourne","F","Child",130
+2011,"East Melbourne","F","Teen",81
+2011,"East Melbourne","F","Adult",1944
+2011,"East Melbourne","F","Old",574
+2011,"East Melbourne","A","Child",242
+2011,"East Melbourne","A","Teen",163
+2011,"East Melbourne","A","Adult",3766
+2011,"East Melbourne","A","Old",1067
+2011,"Melbourne (Remainder)","M","Child",0
+2011,"Melbourne (Remainder)","M","Teen",9
+2011,"Melbourne (Remainder)","M","Adult",28
+2011,"Melbourne (Remainder)","M","Old",3
+2011,"Melbourne (Remainder)","F","Child",0
+2011,"Melbourne (Remainder)","F","Teen",0
+2011,"Melbourne (Remainder)","F","Adult",46
+2011,"Melbourne (Remainder)","F","Old",0
+2011,"Melbourne (Remainder)","A","Child",0
+2011,"Melbourne (Remainder)","A","Teen",9
+2011,"Melbourne (Remainder)","A","Adult",74
+2011,"Melbourne (Remainder)","A","Old",3
+2011,"Kensington","M","Child",566
+2011,"Kensington","M","Teen",308
+2011,"Kensington","M","Adult",3687
+2011,"Kensington","M","Old",464
+2011,"Kensington","F","Child",528
+2011,"Kensington","F","Teen",311
+2011,"Kensington","F","Adult",3823
+2011,"Kensington","F","Old",572
+2011,"Kensington","A","Child",1094
+2011,"Kensington","A","Teen",619
+2011,"Kensington","A","Adult",7510
+2011,"Kensington","A","Old",1036
+2011,"Parkville","M","Child",126
+2011,"Parkville","M","Teen",564
+2011,"Parkville","M","Adult",2013
+2011,"Parkville","M","Old",409
+2011,"Parkville","F","Child",135
+2011,"Parkville","F","Teen",686
+2011,"Parkville","F","Adult",2147
+2011,"Parkville","F","Old",471
+2011,"Parkville","A","Child",261
+2011,"Parkville","A","Teen",1250
+2011,"Parkville","A","Adult",4160
+2011,"Parkville","A","Old",880
+2011,"South Yarra","M","Child",202
+2011,"South Yarra","M","Teen",198
+2011,"South Yarra","M","Adult",2083
+2011,"South Yarra","M","Old",637
+2011,"South Yarra","F","Child",175
+2011,"South Yarra","F","Teen",230
+2011,"South Yarra","F","Adult",2169
+2011,"South Yarra","F","Old",732
+2011,"South Yarra","A","Child",377
+2011,"South Yarra","A","Teen",428
+2011,"South Yarra","A","Adult",4252
+2011,"South Yarra","A","Old",1369
+2011,"West Melbourne (Industrial)","M","Child",0
+2011,"West Melbourne (Industrial)","M","Teen",0
+2011,"West Melbourne (Industrial)","M","Adult",0
+2011,"West Melbourne (Industrial)","M","Old",0
+2011,"West Melbourne (Industrial)","F","Child",0
+2011,"West Melbourne (Industrial)","F","Teen",0
+2011,"West Melbourne (Industrial)","F","Adult",0
+2011,"West Melbourne (Industrial)","F","Old",0
+2011,"West Melbourne (Industrial)","A","Child",0
+2011,"West Melbourne (Industrial)","A","Teen",0
+2011,"West Melbourne (Industrial)","A","Adult",0
+2011,"West Melbourne (Industrial)","A","Old",0
+2011,"Melbourne (CBD)","M","Child",123
+2011,"Melbourne (CBD)","M","Teen",270
+2011,"Melbourne (CBD)","M","Adult",3401
+2011,"Melbourne (CBD)","M","Old",335
+2011,"Melbourne (CBD)","F","Child",104
+2011,"Melbourne (CBD)","F","Teen",298
+2011,"Melbourne (CBD)","F","Adult",3125
+2011,"Melbourne (CBD)","F","Old",283
+2011,"Melbourne (CBD)","A","Child",227
+2011,"Melbourne (CBD)","A","Teen",568
+2011,"Melbourne (CBD)","A","Adult",6526
+2011,"Melbourne (CBD)","A","Old",618
+2011,"Melbourne (CBD)","M","Child",75
+2011,"Melbourne (CBD)","M","Teen",292
+2011,"Melbourne (CBD)","M","Adult",2672
+2011,"Melbourne (CBD)","M","Old",133
+2011,"Melbourne (CBD)","F","Child",86
+2011,"Melbourne (CBD)","F","Teen",395
+2011,"Melbourne (CBD)","F","Adult",2657
+2011,"Melbourne (CBD)","F","Old",91
+2011,"Melbourne (CBD)","A","Child",161
+2011,"Melbourne (CBD)","A","Teen",687
+2011,"Melbourne (CBD)","A","Adult",5329
+2011,"Melbourne (CBD)","A","Old",224
+2011,"Melbourne (CBD)","M","Child",99
+2011,"Melbourne (CBD)","M","Teen",256
+2011,"Melbourne (CBD)","M","Adult",3366
+2011,"Melbourne (CBD)","M","Old",150
+2011,"Melbourne (CBD)","F","Child",81
+2011,"Melbourne (CBD)","F","Teen",259
+2011,"Melbourne (CBD)","F","Adult",3139
+2011,"Melbourne (CBD)","F","Old",125
+2011,"Melbourne (CBD)","A","Child",180
+2011,"Melbourne (CBD)","A","Teen",515
+2011,"Melbourne (CBD)","A","Adult",6505
+2011,"Melbourne (CBD)","A","Old",275
+2011,"North Melbourne","M","Child",480
+2011,"North Melbourne","M","Teen",595
+2011,"North Melbourne","M","Adult",4645
+2011,"North Melbourne","M","Old",655
+2011,"North Melbourne","F","Child",419
+2011,"North Melbourne","F","Teen",589
+2011,"North Melbourne","F","Adult",4574
+2011,"North Melbourne","F","Old",672
+2011,"North Melbourne","A","Child",899
+2011,"North Melbourne","A","Teen",1184
+2011,"North Melbourne","A","Adult",9219
+2011,"North Melbourne","A","Old",1327
+2011,"Melbourne (Remainder)","M","Child",0
+2011,"Melbourne (Remainder)","M","Teen",0
+2011,"Melbourne (Remainder)","M","Adult",0
+2011,"Melbourne (Remainder)","M","Old",0
+2011,"Melbourne (Remainder)","F","Child",0
+2011,"Melbourne (Remainder)","F","Teen",0
+2011,"Melbourne (Remainder)","F","Adult",0
+2011,"Melbourne (Remainder)","F","Old",0
+2011,"Melbourne (Remainder)","A","Child",0
+2011,"Melbourne (Remainder)","A","Teen",0
+2011,"Melbourne (Remainder)","A","Adult",0
+2011,"Melbourne (Remainder)","A","Old",0
+2011,"Southbank","M","Child",100
+2011,"Southbank","M","Teen",135
+2011,"Southbank","M","Adult",2083
+2011,"Southbank","M","Old",210
+2011,"Southbank","F","Child",92
+2011,"Southbank","F","Teen",149
+2011,"Southbank","F","Adult",1799
+2011,"Southbank","F","Old",191
+2011,"Southbank","A","Child",192
+2011,"Southbank","A","Teen",284
+2011,"Southbank","A","Adult",3882
+2011,"Southbank","A","Old",401
+2011,"Southbank","M","Child",131
+2011,"Southbank","M","Teen",175
+2011,"Southbank","M","Adult",3209
+2011,"Southbank","M","Old",324
+2011,"Southbank","F","Child",124
+2011,"Southbank","F","Teen",204
+2011,"Southbank","F","Adult",2989
+2011,"Southbank","F","Old",259
+2011,"Southbank","A","Child",255
+2011,"Southbank","A","Teen",379
+2011,"Southbank","A","Adult",6198
+2011,"Southbank","A","Old",583
+2011,"West Melbourne (Residential)","M","Child",90
+2011,"West Melbourne (Residential)","M","Teen",118
+2011,"West Melbourne (Residential)","M","Adult",1792
+2011,"West Melbourne (Residential)","M","Old",134
+2011,"West Melbourne (Residential)","F","Child",93
+2011,"West Melbourne (Residential)","F","Teen",98
+2011,"West Melbourne (Residential)","F","Adult",1258
+2011,"West Melbourne (Residential)","F","Old",149
+2011,"West Melbourne (Residential)","A","Child",183
+2011,"West Melbourne (Residential)","A","Teen",216
+2011,"West Melbourne (Residential)","A","Adult",3050
+2011,"West Melbourne (Residential)","A","Old",283
+2011,"Port Melbourne","M","Child",791
+2011,"Port Melbourne","M","Teen",403
+2011,"Port Melbourne","M","Adult",4970
+2011,"Port Melbourne","M","Old",1312
+2011,"Port Melbourne","F","Child",670
+2011,"Port Melbourne","F","Teen",416
+2011,"Port Melbourne","F","Adult",5337
+2011,"Port Melbourne","F","Old",1514
+2011,"Port Melbourne","A","Child",1461
+2011,"Port Melbourne","A","Teen",819
+2011,"Port Melbourne","A","Adult",10307
+2011,"Port Melbourne","A","Old",2826
+2011,"Port Melbourne","M","Child",2
+2011,"Port Melbourne","M","Teen",1
+2011,"Port Melbourne","M","Adult",36
+2011,"Port Melbourne","M","Old",8
+2011,"Port Melbourne","F","Child",3
+2011,"Port Melbourne","F","Teen",0
+2011,"Port Melbourne","F","Adult",16
+2011,"Port Melbourne","F","Old",5
+2011,"Port Melbourne","A","Child",5
+2011,"Port Melbourne","A","Teen",1
+2011,"Port Melbourne","A","Adult",52
+2011,"Port Melbourne","A","Old",13
+2012,"Carlton","M","Child",434
+2012,"Carlton","M","Teen",837
+2012,"Carlton","M","Adult",5630
+2012,"Carlton","M","Old",599
+2012,"Carlton","F","Child",377
+2012,"Carlton","F","Teen",1078
+2012,"Carlton","F","Adult",6044
+2012,"Carlton","F","Old",606
+2012,"Carlton","A","Child",811
+2012,"Carlton","A","Teen",1915
+2012,"Carlton","A","Adult",11674
+2012,"Carlton","A","Old",1205
+2012,"Docklands","M","Child",176
+2012,"Docklands","M","Teen",164
+2012,"Docklands","M","Adult",2914
+2012,"Docklands","M","Old",350
+2012,"Docklands","F","Child",173
+2012,"Docklands","F","Teen",184
+2012,"Docklands","F","Adult",2576
+2012,"Docklands","F","Old",265
+2012,"Docklands","A","Child",349
+2012,"Docklands","A","Teen",348
+2012,"Docklands","A","Adult",5490
+2012,"Docklands","A","Old",615
+2012,"East Melbourne","M","Child",135
+2012,"East Melbourne","M","Teen",88
+2012,"East Melbourne","M","Adult",1803
+2012,"East Melbourne","M","Old",503
+2012,"East Melbourne","F","Child",139
+2012,"East Melbourne","F","Teen",86
+2012,"East Melbourne","F","Adult",1925
+2012,"East Melbourne","F","Old",601
+2012,"East Melbourne","A","Child",274
+2012,"East Melbourne","A","Teen",174
+2012,"East Melbourne","A","Adult",3728
+2012,"East Melbourne","A","Old",1104
+2012,"Melbourne (Remainder)","M","Child",0
+2012,"Melbourne (Remainder)","M","Teen",3
+2012,"Melbourne (Remainder)","M","Adult",31
+2012,"Melbourne (Remainder)","M","Old",6
+2012,"Melbourne (Remainder)","F","Child",0
+2012,"Melbourne (Remainder)","F","Teen",0
+2012,"Melbourne (Remainder)","F","Adult",47
+2012,"Melbourne (Remainder)","F","Old",0
+2012,"Melbourne (Remainder)","A","Child",0
+2012,"Melbourne (Remainder)","A","Teen",3
+2012,"Melbourne (Remainder)","A","Adult",78
+2012,"Melbourne (Remainder)","A","Old",6
+2012,"Kensington","M","Child",592
+2012,"Kensington","M","Teen",316
+2012,"Kensington","M","Adult",3737
+2012,"Kensington","M","Old",488
+2012,"Kensington","F","Child",559
+2012,"Kensington","F","Teen",328
+2012,"Kensington","F","Adult",3865
+2012,"Kensington","F","Old",602
+2012,"Kensington","A","Child",1151
+2012,"Kensington","A","Teen",644
+2012,"Kensington","A","Adult",7602
+2012,"Kensington","A","Old",1090
+2012,"Parkville","M","Child",147
+2012,"Parkville","M","Teen",571
+2012,"Parkville","M","Adult",2123
+2012,"Parkville","M","Old",425
+2012,"Parkville","F","Child",160
+2012,"Parkville","F","Teen",710
+2012,"Parkville","F","Adult",2204
+2012,"Parkville","F","Old",532
+2012,"Parkville","A","Child",307
+2012,"Parkville","A","Teen",1281
+2012,"Parkville","A","Adult",4327
+2012,"Parkville","A","Old",957
+2012,"South Yarra","M","Child",200
+2012,"South Yarra","M","Teen",217
+2012,"South Yarra","M","Adult",2042
+2012,"South Yarra","M","Old",647
+2012,"South Yarra","F","Child",187
+2012,"South Yarra","F","Teen",227
+2012,"South Yarra","F","Adult",2134
+2012,"South Yarra","F","Old",746
+2012,"South Yarra","A","Child",387
+2012,"South Yarra","A","Teen",444
+2012,"South Yarra","A","Adult",4176
+2012,"South Yarra","A","Old",1393
+2012,"West Melbourne (Industrial)","M","Child",0
+2012,"West Melbourne (Industrial)","M","Teen",0
+2012,"West Melbourne (Industrial)","M","Adult",0
+2012,"West Melbourne (Industrial)","M","Old",0
+2012,"West Melbourne (Industrial)","F","Child",0
+2012,"West Melbourne (Industrial)","F","Teen",0
+2012,"West Melbourne (Industrial)","F","Adult",0
+2012,"West Melbourne (Industrial)","F","Old",0
+2012,"West Melbourne (Industrial)","A","Child",0
+2012,"West Melbourne (Industrial)","A","Teen",0
+2012,"West Melbourne (Industrial)","A","Adult",0
+2012,"West Melbourne (Industrial)","A","Old",0
+2012,"Melbourne (CBD)","M","Child",145
+2012,"Melbourne (CBD)","M","Teen",275
+2012,"Melbourne (CBD)","M","Adult",3563
+2012,"Melbourne (CBD)","M","Old",366
+2012,"Melbourne (CBD)","F","Child",120
+2012,"Melbourne (CBD)","F","Teen",315
+2012,"Melbourne (CBD)","F","Adult",3298
+2012,"Melbourne (CBD)","F","Old",292
+2012,"Melbourne (CBD)","A","Child",265
+2012,"Melbourne (CBD)","A","Teen",590
+2012,"Melbourne (CBD)","A","Adult",6861
+2012,"Melbourne (CBD)","A","Old",658
+2012,"Melbourne (CBD)","M","Child",88
+2012,"Melbourne (CBD)","M","Teen",416
+2012,"Melbourne (CBD)","M","Adult",3183
+2012,"Melbourne (CBD)","M","Old",151
+2012,"Melbourne (CBD)","F","Child",97
+2012,"Melbourne (CBD)","F","Teen",554
+2012,"Melbourne (CBD)","F","Adult",3273
+2012,"Melbourne (CBD)","F","Old",118
+2012,"Melbourne (CBD)","A","Child",185
+2012,"Melbourne (CBD)","A","Teen",970
+2012,"Melbourne (CBD)","A","Adult",6456
+2012,"Melbourne (CBD)","A","Old",269
+2012,"Melbourne (CBD)","M","Child",114
+2012,"Melbourne (CBD)","M","Teen",295
+2012,"Melbourne (CBD)","M","Adult",3857
+2012,"Melbourne (CBD)","M","Old",155
+2012,"Melbourne (CBD)","F","Child",106
+2012,"Melbourne (CBD)","F","Teen",322
+2012,"Melbourne (CBD)","F","Adult",3631
+2012,"Melbourne (CBD)","F","Old",148
+2012,"Melbourne (CBD)","A","Child",220
+2012,"Melbourne (CBD)","A","Teen",617
+2012,"Melbourne (CBD)","A","Adult",7488
+2012,"Melbourne (CBD)","A","Old",303
+2012,"North Melbourne","M","Child",523
+2012,"North Melbourne","M","Teen",622
+2012,"North Melbourne","M","Adult",4859
+2012,"North Melbourne","M","Old",669
+2012,"North Melbourne","F","Child",452
+2012,"North Melbourne","F","Teen",627
+2012,"North Melbourne","F","Adult",4865
+2012,"North Melbourne","F","Old",704
+2012,"North Melbourne","A","Child",975
+2012,"North Melbourne","A","Teen",1249
+2012,"North Melbourne","A","Adult",9724
+2012,"North Melbourne","A","Old",1373
+2012,"Melbourne (Remainder)","M","Child",0
+2012,"Melbourne (Remainder)","M","Teen",0
+2012,"Melbourne (Remainder)","M","Adult",0
+2012,"Melbourne (Remainder)","M","Old",0
+2012,"Melbourne (Remainder)","F","Child",0
+2012,"Melbourne (Remainder)","F","Teen",0
+2012,"Melbourne (Remainder)","F","Adult",0
+2012,"Melbourne (Remainder)","F","Old",0
+2012,"Melbourne (Remainder)","A","Child",0
+2012,"Melbourne (Remainder)","A","Teen",0
+2012,"Melbourne (Remainder)","A","Adult",0
+2012,"Melbourne (Remainder)","A","Old",0
+2012,"Southbank","M","Child",122
+2012,"Southbank","M","Teen",149
+2012,"Southbank","M","Adult",2304
+2012,"Southbank","M","Old",249
+2012,"Southbank","F","Child",106
+2012,"Southbank","F","Teen",178
+2012,"Southbank","F","Adult",2025
+2012,"Southbank","F","Old",217
+2012,"Southbank","A","Child",228
+2012,"Southbank","A","Teen",327
+2012,"Southbank","A","Adult",4329
+2012,"Southbank","A","Old",466
+2012,"Southbank","M","Child",165
+2012,"Southbank","M","Teen",194
+2012,"Southbank","M","Adult",3607
+2012,"Southbank","M","Old",342
+2012,"Southbank","F","Child",152
+2012,"Southbank","F","Teen",234
+2012,"Southbank","F","Adult",3404
+2012,"Southbank","F","Old",298
+2012,"Southbank","A","Child",317
+2012,"Southbank","A","Teen",428
+2012,"Southbank","A","Adult",7011
+2012,"Southbank","A","Old",640
+2012,"West Melbourne (Residential)","M","Child",100
+2012,"West Melbourne (Residential)","M","Teen",128
+2012,"West Melbourne (Residential)","M","Adult",1938
+2012,"West Melbourne (Residential)","M","Old",144
+2012,"West Melbourne (Residential)","F","Child",131
+2012,"West Melbourne (Residential)","F","Teen",101
+2012,"West Melbourne (Residential)","F","Adult",1401
+2012,"West Melbourne (Residential)","F","Old",148
+2012,"West Melbourne (Residential)","A","Child",231
+2012,"West Melbourne (Residential)","A","Teen",229
+2012,"West Melbourne (Residential)","A","Adult",3339
+2012,"West Melbourne (Residential)","A","Old",292
+2012,"Port Melbourne","M","Child",834
+2012,"Port Melbourne","M","Teen",443
+2012,"Port Melbourne","M","Adult",5075
+2012,"Port Melbourne","M","Old",1378
+2012,"Port Melbourne","F","Child",729
+2012,"Port Melbourne","F","Teen",427
+2012,"Port Melbourne","F","Adult",5503
+2012,"Port Melbourne","F","Old",1575
+2012,"Port Melbourne","A","Child",1563
+2012,"Port Melbourne","A","Teen",870
+2012,"Port Melbourne","A","Adult",10578
+2012,"Port Melbourne","A","Old",2953
+2012,"Port Melbourne","M","Child",4
+2012,"Port Melbourne","M","Teen",3
+2012,"Port Melbourne","M","Adult",35
+2012,"Port Melbourne","M","Old",11
+2012,"Port Melbourne","F","Child",3
+2012,"Port Melbourne","F","Teen",0
+2012,"Port Melbourne","F","Adult",19
+2012,"Port Melbourne","F","Old",4
+2012,"Port Melbourne","A","Child",7
+2012,"Port Melbourne","A","Teen",3
+2012,"Port Melbourne","A","Adult",54
+2012,"Port Melbourne","A","Old",15
+2013,"Carlton","M","Child",450
+2013,"Carlton","M","Teen",961
+2013,"Carlton","M","Adult",5920
+2013,"Carlton","M","Old",641
+2013,"Carlton","F","Child",392
+2013,"Carlton","F","Teen",1269
+2013,"Carlton","F","Adult",6413
+2013,"Carlton","F","Old",673
+2013,"Carlton","A","Child",842
+2013,"Carlton","A","Teen",2230
+2013,"Carlton","A","Adult",12333
+2013,"Carlton","A","Old",1314
+2013,"Docklands","M","Child",221
+2013,"Docklands","M","Teen",183
+2013,"Docklands","M","Adult",3396
+2013,"Docklands","M","Old",400
+2013,"Docklands","F","Child",214
+2013,"Docklands","F","Teen",218
+2013,"Docklands","F","Adult",3044
+2013,"Docklands","F","Old",312
+2013,"Docklands","A","Child",435
+2013,"Docklands","A","Teen",401
+2013,"Docklands","A","Adult",6440
+2013,"Docklands","A","Old",712
+2013,"East Melbourne","M","Child",145
+2013,"East Melbourne","M","Teen",90
+2013,"East Melbourne","M","Adult",1792
+2013,"East Melbourne","M","Old",530
+2013,"East Melbourne","F","Child",146
+2013,"East Melbourne","F","Teen",89
+2013,"East Melbourne","F","Adult",1921
+2013,"East Melbourne","F","Old",620
+2013,"East Melbourne","A","Child",291
+2013,"East Melbourne","A","Teen",179
+2013,"East Melbourne","A","Adult",3713
+2013,"East Melbourne","A","Old",1150
+2013,"Melbourne (Remainder)","M","Child",0
+2013,"Melbourne (Remainder)","M","Teen",3
+2013,"Melbourne (Remainder)","M","Adult",32
+2013,"Melbourne (Remainder)","M","Old",5
+2013,"Melbourne (Remainder)","F","Child",0
+2013,"Melbourne (Remainder)","F","Teen",0
+2013,"Melbourne (Remainder)","F","Adult",48
+2013,"Melbourne (Remainder)","F","Old",0
+2013,"Melbourne (Remainder)","A","Child",0
+2013,"Melbourne (Remainder)","A","Teen",3
+2013,"Melbourne (Remainder)","A","Adult",80
+2013,"Melbourne (Remainder)","A","Old",5
+2013,"Kensington","M","Child",624
+2013,"Kensington","M","Teen",318
+2013,"Kensington","M","Adult",3797
+2013,"Kensington","M","Old",524
+2013,"Kensington","F","Child",590
+2013,"Kensington","F","Teen",335
+2013,"Kensington","F","Adult",3939
+2013,"Kensington","F","Old",635
+2013,"Kensington","A","Child",1214
+2013,"Kensington","A","Teen",653
+2013,"Kensington","A","Adult",7736
+2013,"Kensington","A","Old",1159
+2013,"Parkville","M","Child",157
+2013,"Parkville","M","Teen",585
+2013,"Parkville","M","Adult",2216
+2013,"Parkville","M","Old",437
+2013,"Parkville","F","Child",179
+2013,"Parkville","F","Teen",734
+2013,"Parkville","F","Adult",2286
+2013,"Parkville","F","Old",580
+2013,"Parkville","A","Child",336
+2013,"Parkville","A","Teen",1319
+2013,"Parkville","A","Adult",4502
+2013,"Parkville","A","Old",1017
+2013,"South Yarra","M","Child",203
+2013,"South Yarra","M","Teen",219
+2013,"South Yarra","M","Adult",1998
+2013,"South Yarra","M","Old",661
+2013,"South Yarra","F","Child",195
+2013,"South Yarra","F","Teen",219
+2013,"South Yarra","F","Adult",2141
+2013,"South Yarra","F","Old",757
+2013,"South Yarra","A","Child",398
+2013,"South Yarra","A","Teen",438
+2013,"South Yarra","A","Adult",4139
+2013,"South Yarra","A","Old",1418
+2013,"West Melbourne (Industrial)","M","Child",0
+2013,"West Melbourne (Industrial)","M","Teen",0
+2013,"West Melbourne (Industrial)","M","Adult",0
+2013,"West Melbourne (Industrial)","M","Old",0
+2013,"West Melbourne (Industrial)","F","Child",0
+2013,"West Melbourne (Industrial)","F","Teen",0
+2013,"West Melbourne (Industrial)","F","Adult",0
+2013,"West Melbourne (Industrial)","F","Old",0
+2013,"West Melbourne (Industrial)","A","Child",0
+2013,"West Melbourne (Industrial)","A","Teen",0
+2013,"West Melbourne (Industrial)","A","Adult",0
+2013,"West Melbourne (Industrial)","A","Old",0
+2013,"Melbourne (CBD)","M","Child",166
+2013,"Melbourne (CBD)","M","Teen",314
+2013,"Melbourne (CBD)","M","Adult",4034
+2013,"Melbourne (CBD)","M","Old",452
+2013,"Melbourne (CBD)","F","Child",140
+2013,"Melbourne (CBD)","F","Teen",371
+2013,"Melbourne (CBD)","F","Adult",3809
+2013,"Melbourne (CBD)","F","Old",360
+2013,"Melbourne (CBD)","A","Child",306
+2013,"Melbourne (CBD)","A","Teen",685
+2013,"Melbourne (CBD)","A","Adult",7843
+2013,"Melbourne (CBD)","A","Old",812
+2013,"Melbourne (CBD)","M","Child",101
+2013,"Melbourne (CBD)","M","Teen",555
+2013,"Melbourne (CBD)","M","Adult",3792
+2013,"Melbourne (CBD)","M","Old",173
+2013,"Melbourne (CBD)","F","Child",121
+2013,"Melbourne (CBD)","F","Teen",735
+2013,"Melbourne (CBD)","F","Adult",3982
+2013,"Melbourne (CBD)","F","Old",132
+2013,"Melbourne (CBD)","A","Child",222
+2013,"Melbourne (CBD)","A","Teen",1290
+2013,"Melbourne (CBD)","A","Adult",7774
+2013,"Melbourne (CBD)","A","Old",305
+2013,"Melbourne (CBD)","M","Child",158
+2013,"Melbourne (CBD)","M","Teen",340
+2013,"Melbourne (CBD)","M","Adult",4585
+2013,"Melbourne (CBD)","M","Old",187
+2013,"Melbourne (CBD)","F","Child",142
+2013,"Melbourne (CBD)","F","Teen",409
+2013,"Melbourne (CBD)","F","Adult",4408
+2013,"Melbourne (CBD)","F","Old",184
+2013,"Melbourne (CBD)","A","Child",300
+2013,"Melbourne (CBD)","A","Teen",749
+2013,"Melbourne (CBD)","A","Adult",8993
+2013,"Melbourne (CBD)","A","Old",371
+2013,"North Melbourne","M","Child",573
+2013,"North Melbourne","M","Teen",670
+2013,"North Melbourne","M","Adult",5094
+2013,"North Melbourne","M","Old",708
+2013,"North Melbourne","F","Child",509
+2013,"North Melbourne","F","Teen",681
+2013,"North Melbourne","F","Adult",5200
+2013,"North Melbourne","F","Old",740
+2013,"North Melbourne","A","Child",1082
+2013,"North Melbourne","A","Teen",1351
+2013,"North Melbourne","A","Adult",10294
+2013,"North Melbourne","A","Old",1448
+2013,"Melbourne (Remainder)","M","Child",0
+2013,"Melbourne (Remainder)","M","Teen",0
+2013,"Melbourne (Remainder)","M","Adult",0
+2013,"Melbourne (Remainder)","M","Old",0
+2013,"Melbourne (Remainder)","F","Child",0
+2013,"Melbourne (Remainder)","F","Teen",0
+2013,"Melbourne (Remainder)","F","Adult",0
+2013,"Melbourne (Remainder)","F","Old",0
+2013,"Melbourne (Remainder)","A","Child",0
+2013,"Melbourne (Remainder)","A","Teen",0
+2013,"Melbourne (Remainder)","A","Adult",0
+2013,"Melbourne (Remainder)","A","Old",0
+2013,"Southbank","M","Child",137
+2013,"Southbank","M","Teen",149
+2013,"Southbank","M","Adult",2586
+2013,"Southbank","M","Old",283
+2013,"Southbank","F","Child",130
+2013,"Southbank","F","Teen",184
+2013,"Southbank","F","Adult",2343
+2013,"Southbank","F","Old",279
+2013,"Southbank","A","Child",267
+2013,"Southbank","A","Teen",333
+2013,"Southbank","A","Adult",4929
+2013,"Southbank","A","Old",562
+2013,"Southbank","M","Child",210
+2013,"Southbank","M","Teen",240
+2013,"Southbank","M","Adult",4209
+2013,"Southbank","M","Old",387
+2013,"Southbank","F","Child",184
+2013,"Southbank","F","Teen",296
+2013,"Southbank","F","Adult",4003
+2013,"Southbank","F","Old",344
+2013,"Southbank","A","Child",394
+2013,"Southbank","A","Teen",536
+2013,"Southbank","A","Adult",8212
+2013,"Southbank","A","Old",731
+2013,"West Melbourne (Residential)","M","Child",105
+2013,"West Melbourne (Residential)","M","Teen",135
+2013,"West Melbourne (Residential)","M","Adult",2105
+2013,"West Melbourne (Residential)","M","Old",150
+2013,"West Melbourne (Residential)","F","Child",131
+2013,"West Melbourne (Residential)","F","Teen",114
+2013,"West Melbourne (Residential)","F","Adult",1570
+2013,"West Melbourne (Residential)","F","Old",151
+2013,"West Melbourne (Residential)","A","Child",236
+2013,"West Melbourne (Residential)","A","Teen",249
+2013,"West Melbourne (Residential)","A","Adult",3675
+2013,"West Melbourne (Residential)","A","Old",301
+2013,"Port Melbourne","M","Child",871
+2013,"Port Melbourne","M","Teen",474
+2013,"Port Melbourne","M","Adult",5196
+2013,"Port Melbourne","M","Old",1434
+2013,"Port Melbourne","F","Child",781
+2013,"Port Melbourne","F","Teen",458
+2013,"Port Melbourne","F","Adult",5637
+2013,"Port Melbourne","F","Old",1647
+2013,"Port Melbourne","A","Child",1652
+2013,"Port Melbourne","A","Teen",932
+2013,"Port Melbourne","A","Adult",10833
+2013,"Port Melbourne","A","Old",3081
+2013,"Port Melbourne","M","Child",3
+2013,"Port Melbourne","M","Teen",2
+2013,"Port Melbourne","M","Adult",43
+2013,"Port Melbourne","M","Old",11
+2013,"Port Melbourne","F","Child",2
+2013,"Port Melbourne","F","Teen",0
+2013,"Port Melbourne","F","Adult",22
+2013,"Port Melbourne","F","Old",5
+2013,"Port Melbourne","A","Child",5
+2013,"Port Melbourne","A","Teen",2
+2013,"Port Melbourne","A","Adult",65
+2013,"Port Melbourne","A","Old",16
+2014,"Carlton","M","Child",455
+2014,"Carlton","M","Teen",1095
+2014,"Carlton","M","Adult",6213
+2014,"Carlton","M","Old",675
+2014,"Carlton","F","Child",419
+2014,"Carlton","F","Teen",1442
+2014,"Carlton","F","Adult",6800
+2014,"Carlton","F","Old",744
+2014,"Carlton","A","Child",874
+2014,"Carlton","A","Teen",2537
+2014,"Carlton","A","Adult",13013
+2014,"Carlton","A","Old",1419
+2014,"Docklands","M","Child",270
+2014,"Docklands","M","Teen",214
+2014,"Docklands","M","Adult",3859
+2014,"Docklands","M","Old",453
+2014,"Docklands","F","Child",265
+2014,"Docklands","F","Teen",252
+2014,"Docklands","F","Adult",3493
+2014,"Docklands","F","Old",364
+2014,"Docklands","A","Child",535
+2014,"Docklands","A","Teen",466
+2014,"Docklands","A","Adult",7352
+2014,"Docklands","A","Old",817
+2014,"East Melbourne","M","Child",151
+2014,"East Melbourne","M","Teen",84
+2014,"East Melbourne","M","Adult",1782
+2014,"East Melbourne","M","Old",552
+2014,"East Melbourne","F","Child",149
+2014,"East Melbourne","F","Teen",86
+2014,"East Melbourne","F","Adult",1931
+2014,"East Melbourne","F","Old",639
+2014,"East Melbourne","A","Child",300
+2014,"East Melbourne","A","Teen",170
+2014,"East Melbourne","A","Adult",3713
+2014,"East Melbourne","A","Old",1191
+2014,"Melbourne (Remainder)","M","Child",0
+2014,"Melbourne (Remainder)","M","Teen",3
+2014,"Melbourne (Remainder)","M","Adult",37
+2014,"Melbourne (Remainder)","M","Old",2
+2014,"Melbourne (Remainder)","F","Child",0
+2014,"Melbourne (Remainder)","F","Teen",0
+2014,"Melbourne (Remainder)","F","Adult",47
+2014,"Melbourne (Remainder)","F","Old",0
+2014,"Melbourne (Remainder)","A","Child",0
+2014,"Melbourne (Remainder)","A","Teen",3
+2014,"Melbourne (Remainder)","A","Adult",84
+2014,"Melbourne (Remainder)","A","Old",2
+2014,"Kensington","M","Child",644
+2014,"Kensington","M","Teen",323
+2014,"Kensington","M","Adult",3852
+2014,"Kensington","M","Old",567
+2014,"Kensington","F","Child",608
+2014,"Kensington","F","Teen",349
+2014,"Kensington","F","Adult",4022
+2014,"Kensington","F","Old",665
+2014,"Kensington","A","Child",1252
+2014,"Kensington","A","Teen",672
+2014,"Kensington","A","Adult",7874
+2014,"Kensington","A","Old",1232
+2014,"Parkville","M","Child",165
+2014,"Parkville","M","Teen",592
+2014,"Parkville","M","Adult",2299
+2014,"Parkville","M","Old",464
+2014,"Parkville","F","Child",190
+2014,"Parkville","F","Teen",761
+2014,"Parkville","F","Adult",2336
+2014,"Parkville","F","Old",640
+2014,"Parkville","A","Child",355
+2014,"Parkville","A","Teen",1353
+2014,"Parkville","A","Adult",4635
+2014,"Parkville","A","Old",1104
+2014,"South Yarra","M","Child",199
+2014,"South Yarra","M","Teen",208
+2014,"South Yarra","M","Adult",1973
+2014,"South Yarra","M","Old",686
+2014,"South Yarra","F","Child",196
+2014,"South Yarra","F","Teen",225
+2014,"South Yarra","F","Adult",2144
+2014,"South Yarra","F","Old",766
+2014,"South Yarra","A","Child",395
+2014,"South Yarra","A","Teen",433
+2014,"South Yarra","A","Adult",4117
+2014,"South Yarra","A","Old",1452
+2014,"West Melbourne (Industrial)","M","Child",0
+2014,"West Melbourne (Industrial)","M","Teen",0
+2014,"West Melbourne (Industrial)","M","Adult",0
+2014,"West Melbourne (Industrial)","M","Old",0
+2014,"West Melbourne (Industrial)","F","Child",0
+2014,"West Melbourne (Industrial)","F","Teen",0
+2014,"West Melbourne (Industrial)","F","Adult",0
+2014,"West Melbourne (Industrial)","F","Old",0
+2014,"West Melbourne (Industrial)","A","Child",0
+2014,"West Melbourne (Industrial)","A","Teen",0
+2014,"West Melbourne (Industrial)","A","Adult",0
+2014,"West Melbourne (Industrial)","A","Old",0
+2014,"Melbourne (CBD)","M","Child",178
+2014,"Melbourne (CBD)","M","Teen",349
+2014,"Melbourne (CBD)","M","Adult",4340
+2014,"Melbourne (CBD)","M","Old",507
+2014,"Melbourne (CBD)","F","Child",160
+2014,"Melbourne (CBD)","F","Teen",396
+2014,"Melbourne (CBD)","F","Adult",4123
+2014,"Melbourne (CBD)","F","Old",402
+2014,"Melbourne (CBD)","A","Child",338
+2014,"Melbourne (CBD)","A","Teen",745
+2014,"Melbourne (CBD)","A","Adult",8463
+2014,"Melbourne (CBD)","A","Old",909
+2014,"Melbourne (CBD)","M","Child",116
+2014,"Melbourne (CBD)","M","Teen",676
+2014,"Melbourne (CBD)","M","Adult",4371
+2014,"Melbourne (CBD)","M","Old",209
+2014,"Melbourne (CBD)","F","Child",137
+2014,"Melbourne (CBD)","F","Teen",925
+2014,"Melbourne (CBD)","F","Adult",4686
+2014,"Melbourne (CBD)","F","Old",177
+2014,"Melbourne (CBD)","A","Child",253
+2014,"Melbourne (CBD)","A","Teen",1601
+2014,"Melbourne (CBD)","A","Adult",9057
+2014,"Melbourne (CBD)","A","Old",386
+2014,"Melbourne (CBD)","M","Child",201
+2014,"Melbourne (CBD)","M","Teen",377
+2014,"Melbourne (CBD)","M","Adult",5186
+2014,"Melbourne (CBD)","M","Old",206
+2014,"Melbourne (CBD)","F","Child",186
+2014,"Melbourne (CBD)","F","Teen",468
+2014,"Melbourne (CBD)","F","Adult",5055
+2014,"Melbourne (CBD)","F","Old",195
+2014,"Melbourne (CBD)","A","Child",387
+2014,"Melbourne (CBD)","A","Teen",845
+2014,"Melbourne (CBD)","A","Adult",10241
+2014,"Melbourne (CBD)","A","Old",401
+2014,"North Melbourne","M","Child",603
+2014,"North Melbourne","M","Teen",705
+2014,"North Melbourne","M","Adult",5268
+2014,"North Melbourne","M","Old",730
+2014,"North Melbourne","F","Child",538
+2014,"North Melbourne","F","Teen",745
+2014,"North Melbourne","F","Adult",5447
+2014,"North Melbourne","F","Old",773
+2014,"North Melbourne","A","Child",1141
+2014,"North Melbourne","A","Teen",1450
+2014,"North Melbourne","A","Adult",10715
+2014,"North Melbourne","A","Old",1503
+2014,"Melbourne (Remainder)","M","Child",0
+2014,"Melbourne (Remainder)","M","Teen",0
+2014,"Melbourne (Remainder)","M","Adult",0
+2014,"Melbourne (Remainder)","M","Old",0
+2014,"Melbourne (Remainder)","F","Child",0
+2014,"Melbourne (Remainder)","F","Teen",0
+2014,"Melbourne (Remainder)","F","Adult",0
+2014,"Melbourne (Remainder)","F","Old",0
+2014,"Melbourne (Remainder)","A","Child",0
+2014,"Melbourne (Remainder)","A","Teen",0
+2014,"Melbourne (Remainder)","A","Adult",0
+2014,"Melbourne (Remainder)","A","Old",0
+2014,"Southbank","M","Child",152
+2014,"Southbank","M","Teen",143
+2014,"Southbank","M","Adult",2705
+2014,"Southbank","M","Old",327
+2014,"Southbank","F","Child",141
+2014,"Southbank","F","Teen",188
+2014,"Southbank","F","Adult",2497
+2014,"Southbank","F","Old",300
+2014,"Southbank","A","Child",293
+2014,"Southbank","A","Teen",331
+2014,"Southbank","A","Adult",5202
+2014,"Southbank","A","Old",627
+2014,"Southbank","M","Child",234
+2014,"Southbank","M","Teen",265
+2014,"Southbank","M","Adult",4648
+2014,"Southbank","M","Old",399
+2014,"Southbank","F","Child",217
+2014,"Southbank","F","Teen",332
+2014,"Southbank","F","Adult",4423
+2014,"Southbank","F","Old",384
+2014,"Southbank","A","Child",451
+2014,"Southbank","A","Teen",597
+2014,"Southbank","A","Adult",9071
+2014,"Southbank","A","Old",783
+2014,"West Melbourne (Residential)","M","Child",101
+2014,"West Melbourne (Residential)","M","Teen",146
+2014,"West Melbourne (Residential)","M","Adult",2271
+2014,"West Melbourne (Residential)","M","Old",164
+2014,"West Melbourne (Residential)","F","Child",149
+2014,"West Melbourne (Residential)","F","Teen",121
+2014,"West Melbourne (Residential)","F","Adult",1726
+2014,"West Melbourne (Residential)","F","Old",157
+2014,"West Melbourne (Residential)","A","Child",250
+2014,"West Melbourne (Residential)","A","Teen",267
+2014,"West Melbourne (Residential)","A","Adult",3997
+2014,"West Melbourne (Residential)","A","Old",321
+2014,"Port Melbourne","M","Child",887
+2014,"Port Melbourne","M","Teen",516
+2014,"Port Melbourne","M","Adult",5273
+2014,"Port Melbourne","M","Old",1477
+2014,"Port Melbourne","F","Child",808
+2014,"Port Melbourne","F","Teen",494
+2014,"Port Melbourne","F","Adult",5766
+2014,"Port Melbourne","F","Old",1694
+2014,"Port Melbourne","A","Child",1695
+2014,"Port Melbourne","A","Teen",1010
+2014,"Port Melbourne","A","Adult",11039
+2014,"Port Melbourne","A","Old",3171
+2014,"Port Melbourne","M","Child",5
+2014,"Port Melbourne","M","Teen",0
+2014,"Port Melbourne","M","Adult",42
+2014,"Port Melbourne","M","Old",10
+2014,"Port Melbourne","F","Child",1
+2014,"Port Melbourne","F","Teen",0
+2014,"Port Melbourne","F","Adult",29
+2014,"Port Melbourne","F","Old",5
+2014,"Port Melbourne","A","Child",6
+2014,"Port Melbourne","A","Teen",0
+2014,"Port Melbourne","A","Adult",71
+2014,"Port Melbourne","A","Old",15
+2015,"Carlton","M","Child",458
+2015,"Carlton","M","Teen",1218
+2015,"Carlton","M","Adult",6490
+2015,"Carlton","M","Old",737
+2015,"Carlton","F","Child",416
+2015,"Carlton","F","Teen",1646
+2015,"Carlton","F","Adult",7197
+2015,"Carlton","F","Old",821
+2015,"Carlton","A","Child",874
+2015,"Carlton","A","Teen",2864
+2015,"Carlton","A","Adult",13687
+2015,"Carlton","A","Old",1558
+2015,"Docklands","M","Child",330
+2015,"Docklands","M","Teen",239
+2015,"Docklands","M","Adult",4358
+2015,"Docklands","M","Old",506
+2015,"Docklands","F","Child",321
+2015,"Docklands","F","Teen",291
+2015,"Docklands","F","Adult",3987
+2015,"Docklands","F","Old",412
+2015,"Docklands","A","Child",651
+2015,"Docklands","A","Teen",530
+2015,"Docklands","A","Adult",8345
+2015,"Docklands","A","Old",918
+2015,"East Melbourne","M","Child",144
+2015,"East Melbourne","M","Teen",85
+2015,"East Melbourne","M","Adult",1771
+2015,"East Melbourne","M","Old",587
+2015,"East Melbourne","F","Child",149
+2015,"East Melbourne","F","Teen",83
+2015,"East Melbourne","F","Adult",1925
+2015,"East Melbourne","F","Old",667
+2015,"East Melbourne","A","Child",293
+2015,"East Melbourne","A","Teen",168
+2015,"East Melbourne","A","Adult",3696
+2015,"East Melbourne","A","Old",1254
+2015,"Melbourne (Remainder)","M","Child",0
+2015,"Melbourne (Remainder)","M","Teen",3
+2015,"Melbourne (Remainder)","M","Adult",38
+2015,"Melbourne (Remainder)","M","Old",1
+2015,"Melbourne (Remainder)","F","Child",2
+2015,"Melbourne (Remainder)","F","Teen",0
+2015,"Melbourne (Remainder)","F","Adult",46
+2015,"Melbourne (Remainder)","F","Old",0
+2015,"Melbourne (Remainder)","A","Child",2
+2015,"Melbourne (Remainder)","A","Teen",3
+2015,"Melbourne (Remainder)","A","Adult",84
+2015,"Melbourne (Remainder)","A","Old",1
+2015,"Kensington","M","Child",642
+2015,"Kensington","M","Teen",341
+2015,"Kensington","M","Adult",3906
+2015,"Kensington","M","Old",615
+2015,"Kensington","F","Child",634
+2015,"Kensington","F","Teen",347
+2015,"Kensington","F","Adult",4095
+2015,"Kensington","F","Old",711
+2015,"Kensington","A","Child",1276
+2015,"Kensington","A","Teen",688
+2015,"Kensington","A","Adult",8001
+2015,"Kensington","A","Old",1326
+2015,"Parkville","M","Child",177
+2015,"Parkville","M","Teen",594
+2015,"Parkville","M","Adult",2386
+2015,"Parkville","M","Old",468
+2015,"Parkville","F","Child",195
+2015,"Parkville","F","Teen",789
+2015,"Parkville","F","Adult",2392
+2015,"Parkville","F","Old",681
+2015,"Parkville","A","Child",372
+2015,"Parkville","A","Teen",1383
+2015,"Parkville","A","Adult",4778
+2015,"Parkville","A","Old",1149
+2015,"South Yarra","M","Child",193
+2015,"South Yarra","M","Teen",208
+2015,"South Yarra","M","Adult",1939
+2015,"South Yarra","M","Old",713
+2015,"South Yarra","F","Child",189
+2015,"South Yarra","F","Teen",236
+2015,"South Yarra","F","Adult",2138
+2015,"South Yarra","F","Old",789
+2015,"South Yarra","A","Child",382
+2015,"South Yarra","A","Teen",444
+2015,"South Yarra","A","Adult",4077
+2015,"South Yarra","A","Old",1502
+2015,"West Melbourne (Industrial)","M","Child",0
+2015,"West Melbourne (Industrial)","M","Teen",0
+2015,"West Melbourne (Industrial)","M","Adult",0
+2015,"West Melbourne (Industrial)","M","Old",0
+2015,"West Melbourne (Industrial)","F","Child",0
+2015,"West Melbourne (Industrial)","F","Teen",0
+2015,"West Melbourne (Industrial)","F","Adult",0
+2015,"West Melbourne (Industrial)","F","Old",0
+2015,"West Melbourne (Industrial)","A","Child",0
+2015,"West Melbourne (Industrial)","A","Teen",0
+2015,"West Melbourne (Industrial)","A","Adult",0
+2015,"West Melbourne (Industrial)","A","Old",0
+2015,"Melbourne (CBD)","M","Child",180
+2015,"Melbourne (CBD)","M","Teen",379
+2015,"Melbourne (CBD)","M","Adult",4538
+2015,"Melbourne (CBD)","M","Old",556
+2015,"Melbourne (CBD)","F","Child",197
+2015,"Melbourne (CBD)","F","Teen",408
+2015,"Melbourne (CBD)","F","Adult",4346
+2015,"Melbourne (CBD)","F","Old",445
+2015,"Melbourne (CBD)","A","Child",377
+2015,"Melbourne (CBD)","A","Teen",787
+2015,"Melbourne (CBD)","A","Adult",8884
+2015,"Melbourne (CBD)","A","Old",1001
+2015,"Melbourne (CBD)","M","Child",138
+2015,"Melbourne (CBD)","M","Teen",787
+2015,"Melbourne (CBD)","M","Adult",4940
+2015,"Melbourne (CBD)","M","Old",215
+2015,"Melbourne (CBD)","F","Child",154
+2015,"Melbourne (CBD)","F","Teen",1108
+2015,"Melbourne (CBD)","F","Adult",5356
+2015,"Melbourne (CBD)","F","Old",197
+2015,"Melbourne (CBD)","A","Child",292
+2015,"Melbourne (CBD)","A","Teen",1895
+2015,"Melbourne (CBD)","A","Adult",10296
+2015,"Melbourne (CBD)","A","Old",412
+2015,"Melbourne (CBD)","M","Child",237
+2015,"Melbourne (CBD)","M","Teen",407
+2015,"Melbourne (CBD)","M","Adult",5726
+2015,"Melbourne (CBD)","M","Old",248
+2015,"Melbourne (CBD)","F","Child",200
+2015,"Melbourne (CBD)","F","Teen",529
+2015,"Melbourne (CBD)","F","Adult",5633
+2015,"Melbourne (CBD)","F","Old",238
+2015,"Melbourne (CBD)","A","Child",437
+2015,"Melbourne (CBD)","A","Teen",936
+2015,"Melbourne (CBD)","A","Adult",11359
+2015,"Melbourne (CBD)","A","Old",486
+2015,"North Melbourne","M","Child",596
+2015,"North Melbourne","M","Teen",756
+2015,"North Melbourne","M","Adult",5497
+2015,"North Melbourne","M","Old",753
+2015,"North Melbourne","F","Child",555
+2015,"North Melbourne","F","Teen",832
+2015,"North Melbourne","F","Adult",5766
+2015,"North Melbourne","F","Old",801
+2015,"North Melbourne","A","Child",1151
+2015,"North Melbourne","A","Teen",1588
+2015,"North Melbourne","A","Adult",11263
+2015,"North Melbourne","A","Old",1554
+2015,"Melbourne (Remainder)","M","Child",0
+2015,"Melbourne (Remainder)","M","Teen",0
+2015,"Melbourne (Remainder)","M","Adult",0
+2015,"Melbourne (Remainder)","M","Old",0
+2015,"Melbourne (Remainder)","F","Child",0
+2015,"Melbourne (Remainder)","F","Teen",0
+2015,"Melbourne (Remainder)","F","Adult",0
+2015,"Melbourne (Remainder)","F","Old",0
+2015,"Melbourne (Remainder)","A","Child",0
+2015,"Melbourne (Remainder)","A","Teen",0
+2015,"Melbourne (Remainder)","A","Adult",0
+2015,"Melbourne (Remainder)","A","Old",0
+2015,"Southbank","M","Child",160
+2015,"Southbank","M","Teen",136
+2015,"Southbank","M","Adult",2844
+2015,"Southbank","M","Old",360
+2015,"Southbank","F","Child",156
+2015,"Southbank","F","Teen",191
+2015,"Southbank","F","Adult",2625
+2015,"Southbank","F","Old",326
+2015,"Southbank","A","Child",316
+2015,"Southbank","A","Teen",327
+2015,"Southbank","A","Adult",5469
+2015,"Southbank","A","Old",686
+2015,"Southbank","M","Child",262
+2015,"Southbank","M","Teen",288
+2015,"Southbank","M","Adult",5012
+2015,"Southbank","M","Old",419
+2015,"Southbank","F","Child",243
+2015,"Southbank","F","Teen",365
+2015,"Southbank","F","Adult",4802
+2015,"Southbank","F","Old",437
+2015,"Southbank","A","Child",505
+2015,"Southbank","A","Teen",653
+2015,"Southbank","A","Adult",9814
+2015,"Southbank","A","Old",856
+2015,"West Melbourne (Residential)","M","Child",130
+2015,"West Melbourne (Residential)","M","Teen",143
+2015,"West Melbourne (Residential)","M","Adult",2439
+2015,"West Melbourne (Residential)","M","Old",175
+2015,"West Melbourne (Residential)","F","Child",157
+2015,"West Melbourne (Residential)","F","Teen",132
+2015,"West Melbourne (Residential)","F","Adult",1875
+2015,"West Melbourne (Residential)","F","Old",172
+2015,"West Melbourne (Residential)","A","Child",287
+2015,"West Melbourne (Residential)","A","Teen",275
+2015,"West Melbourne (Residential)","A","Adult",4314
+2015,"West Melbourne (Residential)","A","Old",347
+2015,"Port Melbourne","M","Child",903
+2015,"Port Melbourne","M","Teen",546
+2015,"Port Melbourne","M","Adult",5322
+2015,"Port Melbourne","M","Old",1531
+2015,"Port Melbourne","F","Child",848
+2015,"Port Melbourne","F","Teen",504
+2015,"Port Melbourne","F","Adult",5858
+2015,"Port Melbourne","F","Old",1742
+2015,"Port Melbourne","A","Child",1751
+2015,"Port Melbourne","A","Teen",1050
+2015,"Port Melbourne","A","Adult",11180
+2015,"Port Melbourne","A","Old",3273
+2015,"Port Melbourne","M","Child",1
+2015,"Port Melbourne","M","Teen",0
+2015,"Port Melbourne","M","Adult",46
+2015,"Port Melbourne","M","Old",11
+2015,"Port Melbourne","F","Child",0
+2015,"Port Melbourne","F","Teen",0
+2015,"Port Melbourne","F","Adult",36
+2015,"Port Melbourne","F","Old",5
+2015,"Port Melbourne","A","Child",1
+2015,"Port Melbourne","A","Teen",0
+2015,"Port Melbourne","A","Adult",82
+2015,"Port Melbourne","A","Old",16
+2016,"Carlton","M","Child",452
+2016,"Carlton","M","Teen",1352
+2016,"Carlton","M","Adult",6833
+2016,"Carlton","M","Old",782
+2016,"Carlton","F","Child",423
+2016,"Carlton","F","Teen",1837
+2016,"Carlton","F","Adult",7685
+2016,"Carlton","F","Old",878
+2016,"Carlton","A","Child",875
+2016,"Carlton","A","Teen",3189
+2016,"Carlton","A","Adult",14518
+2016,"Carlton","A","Old",1660
+2016,"Docklands","M","Child",401
+2016,"Docklands","M","Teen",270
+2016,"Docklands","M","Adult",4900
+2016,"Docklands","M","Old",565
+2016,"Docklands","F","Child",367
+2016,"Docklands","F","Teen",328
+2016,"Docklands","F","Adult",4533
+2016,"Docklands","F","Old",468
+2016,"Docklands","A","Child",768
+2016,"Docklands","A","Teen",598
+2016,"Docklands","A","Adult",9433
+2016,"Docklands","A","Old",1033
+2016,"East Melbourne","M","Child",135
+2016,"East Melbourne","M","Teen",82
+2016,"East Melbourne","M","Adult",1785
+2016,"East Melbourne","M","Old",614
+2016,"East Melbourne","F","Child",151
+2016,"East Melbourne","F","Teen",89
+2016,"East Melbourne","F","Adult",1923
+2016,"East Melbourne","F","Old",696
+2016,"East Melbourne","A","Child",286
+2016,"East Melbourne","A","Teen",171
+2016,"East Melbourne","A","Adult",3708
+2016,"East Melbourne","A","Old",1310
+2016,"Melbourne (Remainder)","M","Child",7
+2016,"Melbourne (Remainder)","M","Teen",0
+2016,"Melbourne (Remainder)","M","Adult",35
+2016,"Melbourne (Remainder)","M","Old",0
+2016,"Melbourne (Remainder)","F","Child",5
+2016,"Melbourne (Remainder)","F","Teen",0
+2016,"Melbourne (Remainder)","F","Adult",44
+2016,"Melbourne (Remainder)","F","Old",0
+2016,"Melbourne (Remainder)","A","Child",12
+2016,"Melbourne (Remainder)","A","Teen",0
+2016,"Melbourne (Remainder)","A","Adult",79
+2016,"Melbourne (Remainder)","A","Old",0
+2016,"Kensington","M","Child",652
+2016,"Kensington","M","Teen",367
+2016,"Kensington","M","Adult",3950
+2016,"Kensington","M","Old",648
+2016,"Kensington","F","Child",655
+2016,"Kensington","F","Teen",351
+2016,"Kensington","F","Adult",4162
+2016,"Kensington","F","Old",745
+2016,"Kensington","A","Child",1307
+2016,"Kensington","A","Teen",718
+2016,"Kensington","A","Adult",8112
+2016,"Kensington","A","Old",1393
+2016,"Parkville","M","Child",203
+2016,"Parkville","M","Teen",599
+2016,"Parkville","M","Adult",2443
+2016,"Parkville","M","Old",473
+2016,"Parkville","F","Child",196
+2016,"Parkville","F","Teen",811
+2016,"Parkville","F","Adult",2462
+2016,"Parkville","F","Old",711
+2016,"Parkville","A","Child",399
+2016,"Parkville","A","Teen",1410
+2016,"Parkville","A","Adult",4905
+2016,"Parkville","A","Old",1184
+2016,"South Yarra","M","Child",181
+2016,"South Yarra","M","Teen",212
+2016,"South Yarra","M","Adult",1900
+2016,"South Yarra","M","Old",734
+2016,"South Yarra","F","Child",183
+2016,"South Yarra","F","Teen",243
+2016,"South Yarra","F","Adult",2162
+2016,"South Yarra","F","Old",838
+2016,"South Yarra","A","Child",364
+2016,"South Yarra","A","Teen",455
+2016,"South Yarra","A","Adult",4062
+2016,"South Yarra","A","Old",1572
+2016,"West Melbourne (Industrial)","M","Child",0
+2016,"West Melbourne (Industrial)","M","Teen",0
+2016,"West Melbourne (Industrial)","M","Adult",2
+2016,"West Melbourne (Industrial)","M","Old",0
+2016,"West Melbourne (Industrial)","F","Child",0
+2016,"West Melbourne (Industrial)","F","Teen",0
+2016,"West Melbourne (Industrial)","F","Adult",1
+2016,"West Melbourne (Industrial)","F","Old",0
+2016,"West Melbourne (Industrial)","A","Child",0
+2016,"West Melbourne (Industrial)","A","Teen",0
+2016,"West Melbourne (Industrial)","A","Adult",3
+2016,"West Melbourne (Industrial)","A","Old",0
+2016,"Melbourne (CBD)","M","Child",194
+2016,"Melbourne (CBD)","M","Teen",433
+2016,"Melbourne (CBD)","M","Adult",4779
+2016,"Melbourne (CBD)","M","Old",516
+2016,"Melbourne (CBD)","F","Child",204
+2016,"Melbourne (CBD)","F","Teen",442
+2016,"Melbourne (CBD)","F","Adult",4612
+2016,"Melbourne (CBD)","F","Old",453
+2016,"Melbourne (CBD)","A","Child",398
+2016,"Melbourne (CBD)","A","Teen",875
+2016,"Melbourne (CBD)","A","Adult",9391
+2016,"Melbourne (CBD)","A","Old",969
+2016,"Melbourne (CBD)","M","Child",167
+2016,"Melbourne (CBD)","M","Teen",832
+2016,"Melbourne (CBD)","M","Adult",5435
+2016,"Melbourne (CBD)","M","Old",218
+2016,"Melbourne (CBD)","F","Child",179
+2016,"Melbourne (CBD)","F","Teen",1256
+2016,"Melbourne (CBD)","F","Adult",5959
+2016,"Melbourne (CBD)","F","Old",184
+2016,"Melbourne (CBD)","A","Child",346
+2016,"Melbourne (CBD)","A","Teen",2088
+2016,"Melbourne (CBD)","A","Adult",11394
+2016,"Melbourne (CBD)","A","Old",402
+2016,"Melbourne (CBD)","M","Child",225
+2016,"Melbourne (CBD)","M","Teen",461
+2016,"Melbourne (CBD)","M","Adult",6217
+2016,"Melbourne (CBD)","M","Old",294
+2016,"Melbourne (CBD)","F","Child",195
+2016,"Melbourne (CBD)","F","Teen",585
+2016,"Melbourne (CBD)","F","Adult",6106
+2016,"Melbourne (CBD)","F","Old",235
+2016,"Melbourne (CBD)","A","Child",420
+2016,"Melbourne (CBD)","A","Teen",1046
+2016,"Melbourne (CBD)","A","Adult",12323
+2016,"Melbourne (CBD)","A","Old",529
+2016,"North Melbourne","M","Child",613
+2016,"North Melbourne","M","Teen",781
+2016,"North Melbourne","M","Adult",5780
+2016,"North Melbourne","M","Old",819
+2016,"North Melbourne","F","Child",586
+2016,"North Melbourne","F","Teen",898
+2016,"North Melbourne","F","Adult",6129
+2016,"North Melbourne","F","Old",858
+2016,"North Melbourne","A","Child",1199
+2016,"North Melbourne","A","Teen",1679
+2016,"North Melbourne","A","Adult",11909
+2016,"North Melbourne","A","Old",1677
+2016,"Melbourne (Remainder)","M","Child",0
+2016,"Melbourne (Remainder)","M","Teen",0
+2016,"Melbourne (Remainder)","M","Adult",0
+2016,"Melbourne (Remainder)","M","Old",0
+2016,"Melbourne (Remainder)","F","Child",0
+2016,"Melbourne (Remainder)","F","Teen",0
+2016,"Melbourne (Remainder)","F","Adult",0
+2016,"Melbourne (Remainder)","F","Old",0
+2016,"Melbourne (Remainder)","A","Child",0
+2016,"Melbourne (Remainder)","A","Teen",0
+2016,"Melbourne (Remainder)","A","Adult",0
+2016,"Melbourne (Remainder)","A","Old",0
+2016,"Southbank","M","Child",166
+2016,"Southbank","M","Teen",157
+2016,"Southbank","M","Adult",2988
+2016,"Southbank","M","Old",401
+2016,"Southbank","F","Child",186
+2016,"Southbank","F","Teen",181
+2016,"Southbank","F","Adult",2805
+2016,"Southbank","F","Old",374
+2016,"Southbank","A","Child",352
+2016,"Southbank","A","Teen",338
+2016,"Southbank","A","Adult",5793
+2016,"Southbank","A","Old",775
+2016,"Southbank","M","Child",272
+2016,"Southbank","M","Teen",302
+2016,"Southbank","M","Adult",5553
+2016,"Southbank","M","Old",445
+2016,"Southbank","F","Child",267
+2016,"Southbank","F","Teen",412
+2016,"Southbank","F","Adult",5312
+2016,"Southbank","F","Old",467
+2016,"Southbank","A","Child",539
+2016,"Southbank","A","Teen",714
+2016,"Southbank","A","Adult",10865
+2016,"Southbank","A","Old",912
+2016,"West Melbourne (Residential)","M","Child",159
+2016,"West Melbourne (Residential)","M","Teen",163
+2016,"West Melbourne (Residential)","M","Adult",2601
+2016,"West Melbourne (Residential)","M","Old",165
+2016,"West Melbourne (Residential)","F","Child",168
+2016,"West Melbourne (Residential)","F","Teen",167
+2016,"West Melbourne (Residential)","F","Adult",2046
+2016,"West Melbourne (Residential)","F","Old",173
+2016,"West Melbourne (Residential)","A","Child",327
+2016,"West Melbourne (Residential)","A","Teen",330
+2016,"West Melbourne (Residential)","A","Adult",4647
+2016,"West Melbourne (Residential)","A","Old",338
+2016,"Port Melbourne","M","Child",901
+2016,"Port Melbourne","M","Teen",573
+2016,"Port Melbourne","M","Adult",5338
+2016,"Port Melbourne","M","Old",1591
+2016,"Port Melbourne","F","Child",871
+2016,"Port Melbourne","F","Teen",532
+2016,"Port Melbourne","F","Adult",5864
+2016,"Port Melbourne","F","Old",1799
+2016,"Port Melbourne","A","Child",1772
+2016,"Port Melbourne","A","Teen",1105
+2016,"Port Melbourne","A","Adult",11202
+2016,"Port Melbourne","A","Old",3390
+2016,"Port Melbourne","M","Child",1
+2016,"Port Melbourne","M","Teen",2
+2016,"Port Melbourne","M","Adult",53
+2016,"Port Melbourne","M","Old",6
+2016,"Port Melbourne","F","Child",4
+2016,"Port Melbourne","F","Teen",0
+2016,"Port Melbourne","F","Adult",36
+2016,"Port Melbourne","F","Old",8
+2016,"Port Melbourne","A","Child",5
+2016,"Port Melbourne","A","Teen",2
+2016,"Port Melbourne","A","Adult",89
+2016,"Port Melbourne","A","Old",14
+2017,"Carlton","M","Child",470
+2017,"Carlton","M","Teen",1274
+2017,"Carlton","M","Adult",7144
+2017,"Carlton","M","Old",799
+2017,"Carlton","F","Child",420
+2017,"Carlton","F","Teen",1748
+2017,"Carlton","F","Adult",7884
+2017,"Carlton","F","Old",912
+2017,"Carlton","A","Child",890
+2017,"Carlton","A","Teen",3022
+2017,"Carlton","A","Adult",15028
+2017,"Carlton","A","Old",1711
+2017,"Docklands","M","Child",480
+2017,"Docklands","M","Teen",298
+2017,"Docklands","M","Adult",5809
+2017,"Docklands","M","Old",658
+2017,"Docklands","F","Child",440
+2017,"Docklands","F","Teen",341
+2017,"Docklands","F","Adult",5342
+2017,"Docklands","F","Old",554
+2017,"Docklands","A","Child",920
+2017,"Docklands","A","Teen",639
+2017,"Docklands","A","Adult",11151
+2017,"Docklands","A","Old",1212
+2017,"East Melbourne","M","Child",145
+2017,"East Melbourne","M","Teen",89
+2017,"East Melbourne","M","Adult",1764
+2017,"East Melbourne","M","Old",630
+2017,"East Melbourne","F","Child",174
+2017,"East Melbourne","F","Teen",96
+2017,"East Melbourne","F","Adult",1896
+2017,"East Melbourne","F","Old",702
+2017,"East Melbourne","A","Child",319
+2017,"East Melbourne","A","Teen",185
+2017,"East Melbourne","A","Adult",3660
+2017,"East Melbourne","A","Old",1332
+2017,"Melbourne (Remainder)","M","Child",10
+2017,"Melbourne (Remainder)","M","Teen",0
+2017,"Melbourne (Remainder)","M","Adult",33
+2017,"Melbourne (Remainder)","M","Old",0
+2017,"Melbourne (Remainder)","F","Child",4
+2017,"Melbourne (Remainder)","F","Teen",0
+2017,"Melbourne (Remainder)","F","Adult",41
+2017,"Melbourne (Remainder)","F","Old",0
+2017,"Melbourne (Remainder)","A","Child",14
+2017,"Melbourne (Remainder)","A","Teen",0
+2017,"Melbourne (Remainder)","A","Adult",74
+2017,"Melbourne (Remainder)","A","Old",0
+2017,"Kensington","M","Child",651
+2017,"Kensington","M","Teen",380
+2017,"Kensington","M","Adult",3925
+2017,"Kensington","M","Old",673
+2017,"Kensington","F","Child",656
+2017,"Kensington","F","Teen",375
+2017,"Kensington","F","Adult",4107
+2017,"Kensington","F","Old",773
+2017,"Kensington","A","Child",1307
+2017,"Kensington","A","Teen",755
+2017,"Kensington","A","Adult",8032
+2017,"Kensington","A","Old",1446
+2017,"Parkville","M","Child",214
+2017,"Parkville","M","Teen",630
+2017,"Parkville","M","Adult",2523
+2017,"Parkville","M","Old",460
+2017,"Parkville","F","Child",228
+2017,"Parkville","F","Teen",854
+2017,"Parkville","F","Adult",2584
+2017,"Parkville","F","Old",689
+2017,"Parkville","A","Child",442
+2017,"Parkville","A","Teen",1484
+2017,"Parkville","A","Adult",5107
+2017,"Parkville","A","Old",1149
+2017,"South Yarra","M","Child",202
+2017,"South Yarra","M","Teen",244
+2017,"South Yarra","M","Adult",1990
+2017,"South Yarra","M","Old",801
+2017,"South Yarra","F","Child",204
+2017,"South Yarra","F","Teen",226
+2017,"South Yarra","F","Adult",2269
+2017,"South Yarra","F","Old",897
+2017,"South Yarra","A","Child",406
+2017,"South Yarra","A","Teen",470
+2017,"South Yarra","A","Adult",4259
+2017,"South Yarra","A","Old",1698
+2017,"West Melbourne (Industrial)","M","Child",0
+2017,"West Melbourne (Industrial)","M","Teen",0
+2017,"West Melbourne (Industrial)","M","Adult",2
+2017,"West Melbourne (Industrial)","M","Old",0
+2017,"West Melbourne (Industrial)","F","Child",0
+2017,"West Melbourne (Industrial)","F","Teen",0
+2017,"West Melbourne (Industrial)","F","Adult",1
+2017,"West Melbourne (Industrial)","F","Old",0
+2017,"West Melbourne (Industrial)","A","Child",0
+2017,"West Melbourne (Industrial)","A","Teen",0
+2017,"West Melbourne (Industrial)","A","Adult",3
+2017,"West Melbourne (Industrial)","A","Old",0
+2017,"Melbourne (CBD)","M","Child",212
+2017,"Melbourne (CBD)","M","Teen",410
+2017,"Melbourne (CBD)","M","Adult",4900
+2017,"Melbourne (CBD)","M","Old",528
+2017,"Melbourne (CBD)","F","Child",212
+2017,"Melbourne (CBD)","F","Teen",430
+2017,"Melbourne (CBD)","F","Adult",4716
+2017,"Melbourne (CBD)","F","Old",473
+2017,"Melbourne (CBD)","A","Child",424
+2017,"Melbourne (CBD)","A","Teen",840
+2017,"Melbourne (CBD)","A","Adult",9616
+2017,"Melbourne (CBD)","A","Old",1001
+2017,"Melbourne (CBD)","M","Child",188
+2017,"Melbourne (CBD)","M","Teen",828
+2017,"Melbourne (CBD)","M","Adult",6259
+2017,"Melbourne (CBD)","M","Old",231
+2017,"Melbourne (CBD)","F","Child",202
+2017,"Melbourne (CBD)","F","Teen",1231
+2017,"Melbourne (CBD)","F","Adult",6661
+2017,"Melbourne (CBD)","F","Old",201
+2017,"Melbourne (CBD)","A","Child",390
+2017,"Melbourne (CBD)","A","Teen",2059
+2017,"Melbourne (CBD)","A","Adult",12920
+2017,"Melbourne (CBD)","A","Old",432
+2017,"Melbourne (CBD)","M","Child",282
+2017,"Melbourne (CBD)","M","Teen",500
+2017,"Melbourne (CBD)","M","Adult",7391
+2017,"Melbourne (CBD)","M","Old",340
+2017,"Melbourne (CBD)","F","Child",245
+2017,"Melbourne (CBD)","F","Teen",623
+2017,"Melbourne (CBD)","F","Adult",7219
+2017,"Melbourne (CBD)","F","Old",288
+2017,"Melbourne (CBD)","A","Child",527
+2017,"Melbourne (CBD)","A","Teen",1123
+2017,"Melbourne (CBD)","A","Adult",14610
+2017,"Melbourne (CBD)","A","Old",628
+2017,"North Melbourne","M","Child",690
+2017,"North Melbourne","M","Teen",758
+2017,"North Melbourne","M","Adult",6019
+2017,"North Melbourne","M","Old",810
+2017,"North Melbourne","F","Child",671
+2017,"North Melbourne","F","Teen",883
+2017,"North Melbourne","F","Adult",6298
+2017,"North Melbourne","F","Old",873
+2017,"North Melbourne","A","Child",1361
+2017,"North Melbourne","A","Teen",1641
+2017,"North Melbourne","A","Adult",12317
+2017,"North Melbourne","A","Old",1683
+2017,"Melbourne (Remainder)","M","Child",0
+2017,"Melbourne (Remainder)","M","Teen",0
+2017,"Melbourne (Remainder)","M","Adult",0
+2017,"Melbourne (Remainder)","M","Old",0
+2017,"Melbourne (Remainder)","F","Child",0
+2017,"Melbourne (Remainder)","F","Teen",0
+2017,"Melbourne (Remainder)","F","Adult",0
+2017,"Melbourne (Remainder)","F","Old",0
+2017,"Melbourne (Remainder)","A","Child",0
+2017,"Melbourne (Remainder)","A","Teen",0
+2017,"Melbourne (Remainder)","A","Adult",0
+2017,"Melbourne (Remainder)","A","Old",0
+2017,"Southbank","M","Child",193
+2017,"Southbank","M","Teen",133
+2017,"Southbank","M","Adult",3069
+2017,"Southbank","M","Old",415
+2017,"Southbank","F","Child",211
+2017,"Southbank","F","Teen",193
+2017,"Southbank","F","Adult",2838
+2017,"Southbank","F","Old",393
+2017,"Southbank","A","Child",404
+2017,"Southbank","A","Teen",326
+2017,"Southbank","A","Adult",5907
+2017,"Southbank","A","Old",808
+2017,"Southbank","M","Child",338
+2017,"Southbank","M","Teen",300
+2017,"Southbank","M","Adult",6055
+2017,"Southbank","M","Old",466
+2017,"Southbank","F","Child",315
+2017,"Southbank","F","Teen",402
+2017,"Southbank","F","Adult",5754
+2017,"Southbank","F","Old",502
+2017,"Southbank","A","Child",653
+2017,"Southbank","A","Teen",702
+2017,"Southbank","A","Adult",11809
+2017,"Southbank","A","Old",968
+2017,"West Melbourne (Residential)","M","Child",170
+2017,"West Melbourne (Residential)","M","Teen",174
+2017,"West Melbourne (Residential)","M","Adult",2763
+2017,"West Melbourne (Residential)","M","Old",175
+2017,"West Melbourne (Residential)","F","Child",185
+2017,"West Melbourne (Residential)","F","Teen",168
+2017,"West Melbourne (Residential)","F","Adult",2266
+2017,"West Melbourne (Residential)","F","Old",183
+2017,"West Melbourne (Residential)","A","Child",355
+2017,"West Melbourne (Residential)","A","Teen",342
+2017,"West Melbourne (Residential)","A","Adult",5029
+2017,"West Melbourne (Residential)","A","Old",358
+2017,"Port Melbourne","M","Child",927
+2017,"Port Melbourne","M","Teen",606
+2017,"Port Melbourne","M","Adult",5225
+2017,"Port Melbourne","M","Old",1662
+2017,"Port Melbourne","F","Child",927
+2017,"Port Melbourne","F","Teen",557
+2017,"Port Melbourne","F","Adult",5735
+2017,"Port Melbourne","F","Old",1855
+2017,"Port Melbourne","A","Child",1854
+2017,"Port Melbourne","A","Teen",1163
+2017,"Port Melbourne","A","Adult",10960
+2017,"Port Melbourne","A","Old",3517
+2017,"Port Melbourne","M","Child",12
+2017,"Port Melbourne","M","Teen",14
+2017,"Port Melbourne","M","Adult",169
+2017,"Port Melbourne","M","Old",7
+2017,"Port Melbourne","F","Child",10
+2017,"Port Melbourne","F","Teen",7
+2017,"Port Melbourne","F","Adult",146
+2017,"Port Melbourne","F","Old",10
+2017,"Port Melbourne","A","Child",22
+2017,"Port Melbourne","A","Teen",21
+2017,"Port Melbourne","A","Adult",315
+2017,"Port Melbourne","A","Old",17
+2018,"Carlton","M","Child",466
+2018,"Carlton","M","Teen",1160
+2018,"Carlton","M","Adult",7387
+2018,"Carlton","M","Old",804
+2018,"Carlton","F","Child",418
+2018,"Carlton","F","Teen",1578
+2018,"Carlton","F","Adult",8058
+2018,"Carlton","F","Old",960
+2018,"Carlton","A","Child",884
+2018,"Carlton","A","Teen",2738
+2018,"Carlton","A","Adult",15445
+2018,"Carlton","A","Old",1764
+2018,"Docklands","M","Child",537
+2018,"Docklands","M","Teen",293
+2018,"Docklands","M","Adult",6499
+2018,"Docklands","M","Old",726
+2018,"Docklands","F","Child",498
+2018,"Docklands","F","Teen",329
+2018,"Docklands","F","Adult",5923
+2018,"Docklands","F","Old",631
+2018,"Docklands","A","Child",1035
+2018,"Docklands","A","Teen",622
+2018,"Docklands","A","Adult",12422
+2018,"Docklands","A","Old",1357
+2018,"East Melbourne","M","Child",145
+2018,"East Melbourne","M","Teen",86
+2018,"East Melbourne","M","Adult",1724
+2018,"East Melbourne","M","Old",631
+2018,"East Melbourne","F","Child",176
+2018,"East Melbourne","F","Teen",102
+2018,"East Melbourne","F","Adult",1850
+2018,"East Melbourne","F","Old",698
+2018,"East Melbourne","A","Child",321
+2018,"East Melbourne","A","Teen",188
+2018,"East Melbourne","A","Adult",3574
+2018,"East Melbourne","A","Old",1329
+2018,"Melbourne (Remainder)","M","Child",9
+2018,"Melbourne (Remainder)","M","Teen",0
+2018,"Melbourne (Remainder)","M","Adult",35
+2018,"Melbourne (Remainder)","M","Old",0
+2018,"Melbourne (Remainder)","F","Child",3
+2018,"Melbourne (Remainder)","F","Teen",0
+2018,"Melbourne (Remainder)","F","Adult",39
+2018,"Melbourne (Remainder)","F","Old",0
+2018,"Melbourne (Remainder)","A","Child",12
+2018,"Melbourne (Remainder)","A","Teen",0
+2018,"Melbourne (Remainder)","A","Adult",74
+2018,"Melbourne (Remainder)","A","Old",0
+2018,"Kensington","M","Child",642
+2018,"Kensington","M","Teen",393
+2018,"Kensington","M","Adult",3890
+2018,"Kensington","M","Old",679
+2018,"Kensington","F","Child",658
+2018,"Kensington","F","Teen",387
+2018,"Kensington","F","Adult",4064
+2018,"Kensington","F","Old",780
+2018,"Kensington","A","Child",1300
+2018,"Kensington","A","Teen",780
+2018,"Kensington","A","Adult",7954
+2018,"Kensington","A","Old",1459
+2018,"Parkville","M","Child",223
+2018,"Parkville","M","Teen",641
+2018,"Parkville","M","Adult",2538
+2018,"Parkville","M","Old",446
+2018,"Parkville","F","Child",239
+2018,"Parkville","F","Teen",888
+2018,"Parkville","F","Adult",2612
+2018,"Parkville","F","Old",655
+2018,"Parkville","A","Child",462
+2018,"Parkville","A","Teen",1529
+2018,"Parkville","A","Adult",5150
+2018,"Parkville","A","Old",1101
+2018,"South Yarra","M","Child",207
+2018,"South Yarra","M","Teen",256
+2018,"South Yarra","M","Adult",2024
+2018,"South Yarra","M","Old",817
+2018,"South Yarra","F","Child",214
+2018,"South Yarra","F","Teen",213
+2018,"South Yarra","F","Adult",2300
+2018,"South Yarra","F","Old",926
+2018,"South Yarra","A","Child",421
+2018,"South Yarra","A","Teen",469
+2018,"South Yarra","A","Adult",4324
+2018,"South Yarra","A","Old",1743
+2018,"West Melbourne (Industrial)","M","Child",0
+2018,"West Melbourne (Industrial)","M","Teen",0
+2018,"West Melbourne (Industrial)","M","Adult",2
+2018,"West Melbourne (Industrial)","M","Old",0
+2018,"West Melbourne (Industrial)","F","Child",0
+2018,"West Melbourne (Industrial)","F","Teen",0
+2018,"West Melbourne (Industrial)","F","Adult",0
+2018,"West Melbourne (Industrial)","F","Old",1
+2018,"West Melbourne (Industrial)","A","Child",0
+2018,"West Melbourne (Industrial)","A","Teen",0
+2018,"West Melbourne (Industrial)","A","Adult",2
+2018,"West Melbourne (Industrial)","A","Old",1
+2018,"Melbourne (CBD)","M","Child",223
+2018,"Melbourne (CBD)","M","Teen",397
+2018,"Melbourne (CBD)","M","Adult",5128
+2018,"Melbourne (CBD)","M","Old",537
+2018,"Melbourne (CBD)","F","Child",215
+2018,"Melbourne (CBD)","F","Teen",423
+2018,"Melbourne (CBD)","F","Adult",4922
+2018,"Melbourne (CBD)","F","Old",477
+2018,"Melbourne (CBD)","A","Child",438
+2018,"Melbourne (CBD)","A","Teen",820
+2018,"Melbourne (CBD)","A","Adult",10050
+2018,"Melbourne (CBD)","A","Old",1014
+2018,"Melbourne (CBD)","M","Child",197
+2018,"Melbourne (CBD)","M","Teen",810
+2018,"Melbourne (CBD)","M","Adult",7007
+2018,"Melbourne (CBD)","M","Old",236
+2018,"Melbourne (CBD)","F","Child",216
+2018,"Melbourne (CBD)","F","Teen",1131
+2018,"Melbourne (CBD)","F","Adult",7323
+2018,"Melbourne (CBD)","F","Old",211
+2018,"Melbourne (CBD)","A","Child",413
+2018,"Melbourne (CBD)","A","Teen",1941
+2018,"Melbourne (CBD)","A","Adult",14330
+2018,"Melbourne (CBD)","A","Old",447
+2018,"Melbourne (CBD)","M","Child",307
+2018,"Melbourne (CBD)","M","Teen",487
+2018,"Melbourne (CBD)","M","Adult",8003
+2018,"Melbourne (CBD)","M","Old",360
+2018,"Melbourne (CBD)","F","Child",270
+2018,"Melbourne (CBD)","F","Teen",591
+2018,"Melbourne (CBD)","F","Adult",7772
+2018,"Melbourne (CBD)","F","Old",311
+2018,"Melbourne (CBD)","A","Child",577
+2018,"Melbourne (CBD)","A","Teen",1078
+2018,"Melbourne (CBD)","A","Adult",15775
+2018,"Melbourne (CBD)","A","Old",671
+2018,"North Melbourne","M","Child",765
+2018,"North Melbourne","M","Teen",765
+2018,"North Melbourne","M","Adult",6213
+2018,"North Melbourne","M","Old",824
+2018,"North Melbourne","F","Child",784
+2018,"North Melbourne","F","Teen",859
+2018,"North Melbourne","F","Adult",6455
+2018,"North Melbourne","F","Old",920
+2018,"North Melbourne","A","Child",1549
+2018,"North Melbourne","A","Teen",1624
+2018,"North Melbourne","A","Adult",12668
+2018,"North Melbourne","A","Old",1744
+2018,"Melbourne (Remainder)","M","Child",0
+2018,"Melbourne (Remainder)","M","Teen",0
+2018,"Melbourne (Remainder)","M","Adult",0
+2018,"Melbourne (Remainder)","M","Old",0
+2018,"Melbourne (Remainder)","F","Child",0
+2018,"Melbourne (Remainder)","F","Teen",0
+2018,"Melbourne (Remainder)","F","Adult",0
+2018,"Melbourne (Remainder)","F","Old",0
+2018,"Melbourne (Remainder)","A","Child",0
+2018,"Melbourne (Remainder)","A","Teen",0
+2018,"Melbourne (Remainder)","A","Adult",0
+2018,"Melbourne (Remainder)","A","Old",0
+2018,"Southbank","M","Child",207
+2018,"Southbank","M","Teen",126
+2018,"Southbank","M","Adult",3120
+2018,"Southbank","M","Old",423
+2018,"Southbank","F","Child",223
+2018,"Southbank","F","Teen",186
+2018,"Southbank","F","Adult",2871
+2018,"Southbank","F","Old",402
+2018,"Southbank","A","Child",430
+2018,"Southbank","A","Teen",312
+2018,"Southbank","A","Adult",5991
+2018,"Southbank","A","Old",825
+2018,"Southbank","M","Child",390
+2018,"Southbank","M","Teen",305
+2018,"Southbank","M","Adult",6755
+2018,"Southbank","M","Old",495
+2018,"Southbank","F","Child",358
+2018,"Southbank","F","Teen",394
+2018,"Southbank","F","Adult",6366
+2018,"Southbank","F","Old",532
+2018,"Southbank","A","Child",748
+2018,"Southbank","A","Teen",699
+2018,"Southbank","A","Adult",13121
+2018,"Southbank","A","Old",1027
+2018,"West Melbourne (Residential)","M","Child",179
+2018,"West Melbourne (Residential)","M","Teen",184
+2018,"West Melbourne (Residential)","M","Adult",2947
+2018,"West Melbourne (Residential)","M","Old",190
+2018,"West Melbourne (Residential)","F","Child",192
+2018,"West Melbourne (Residential)","F","Teen",186
+2018,"West Melbourne (Residential)","F","Adult",2516
+2018,"West Melbourne (Residential)","F","Old",204
+2018,"West Melbourne (Residential)","A","Child",371
+2018,"West Melbourne (Residential)","A","Teen",370
+2018,"West Melbourne (Residential)","A","Adult",5463
+2018,"West Melbourne (Residential)","A","Old",394
+2018,"Port Melbourne","M","Child",931
+2018,"Port Melbourne","M","Teen",632
+2018,"Port Melbourne","M","Adult",5082
+2018,"Port Melbourne","M","Old",1705
+2018,"Port Melbourne","F","Child",957
+2018,"Port Melbourne","F","Teen",575
+2018,"Port Melbourne","F","Adult",5581
+2018,"Port Melbourne","F","Old",1891
+2018,"Port Melbourne","A","Child",1888
+2018,"Port Melbourne","A","Teen",1207
+2018,"Port Melbourne","A","Adult",10663
+2018,"Port Melbourne","A","Old",3596
+2018,"Port Melbourne","M","Child",25
+2018,"Port Melbourne","M","Teen",24
+2018,"Port Melbourne","M","Adult",357
+2018,"Port Melbourne","M","Old",11
+2018,"Port Melbourne","F","Child",22
+2018,"Port Melbourne","F","Teen",18
+2018,"Port Melbourne","F","Adult",313
+2018,"Port Melbourne","F","Old",15
+2018,"Port Melbourne","A","Child",47
+2018,"Port Melbourne","A","Teen",42
+2018,"Port Melbourne","A","Adult",670
+2018,"Port Melbourne","A","Old",26
+2019,"Carlton","M","Child",450
+2019,"Carlton","M","Teen",1062
+2019,"Carlton","M","Adult",7661
+2019,"Carlton","M","Old",822
+2019,"Carlton","F","Child",412
+2019,"Carlton","F","Teen",1396
+2019,"Carlton","F","Adult",8218
+2019,"Carlton","F","Old",1008
+2019,"Carlton","A","Child",862
+2019,"Carlton","A","Teen",2458
+2019,"Carlton","A","Adult",15879
+2019,"Carlton","A","Old",1830
+2019,"Docklands","M","Child",573
+2019,"Docklands","M","Teen",273
+2019,"Docklands","M","Adult",6953
+2019,"Docklands","M","Old",761
+2019,"Docklands","F","Child",529
+2019,"Docklands","F","Teen",311
+2019,"Docklands","F","Adult",6292
+2019,"Docklands","F","Old",677
+2019,"Docklands","A","Child",1102
+2019,"Docklands","A","Teen",584
+2019,"Docklands","A","Adult",13245
+2019,"Docklands","A","Old",1438
+2019,"East Melbourne","M","Child",144
+2019,"East Melbourne","M","Teen",89
+2019,"East Melbourne","M","Adult",1711
+2019,"East Melbourne","M","Old",649
+2019,"East Melbourne","F","Child",177
+2019,"East Melbourne","F","Teen",104
+2019,"East Melbourne","F","Adult",1819
+2019,"East Melbourne","F","Old",723
+2019,"East Melbourne","A","Child",321
+2019,"East Melbourne","A","Teen",193
+2019,"East Melbourne","A","Adult",3530
+2019,"East Melbourne","A","Old",1372
+2019,"Melbourne (Remainder)","M","Child",8
+2019,"Melbourne (Remainder)","M","Teen",0
+2019,"Melbourne (Remainder)","M","Adult",38
+2019,"Melbourne (Remainder)","M","Old",0
+2019,"Melbourne (Remainder)","F","Child",2
+2019,"Melbourne (Remainder)","F","Teen",1
+2019,"Melbourne (Remainder)","F","Adult",34
+2019,"Melbourne (Remainder)","F","Old",0
+2019,"Melbourne (Remainder)","A","Child",10
+2019,"Melbourne (Remainder)","A","Teen",1
+2019,"Melbourne (Remainder)","A","Adult",72
+2019,"Melbourne (Remainder)","A","Old",0
+2019,"Kensington","M","Child",639
+2019,"Kensington","M","Teen",409
+2019,"Kensington","M","Adult",3909
+2019,"Kensington","M","Old",708
+2019,"Kensington","F","Child",661
+2019,"Kensington","F","Teen",403
+2019,"Kensington","F","Adult",4095
+2019,"Kensington","F","Old",787
+2019,"Kensington","A","Child",1300
+2019,"Kensington","A","Teen",812
+2019,"Kensington","A","Adult",8004
+2019,"Kensington","A","Old",1495
+2019,"Parkville","M","Child",226
+2019,"Parkville","M","Teen",652
+2019,"Parkville","M","Adult",2565
+2019,"Parkville","M","Old",430
+2019,"Parkville","F","Child",233
+2019,"Parkville","F","Teen",940
+2019,"Parkville","F","Adult",2622
+2019,"Parkville","F","Old",623
+2019,"Parkville","A","Child",459
+2019,"Parkville","A","Teen",1592
+2019,"Parkville","A","Adult",5187
+2019,"Parkville","A","Old",1053
+2019,"South Yarra","M","Child",214
+2019,"South Yarra","M","Teen",255
+2019,"South Yarra","M","Adult",2072
+2019,"South Yarra","M","Old",832
+2019,"South Yarra","F","Child",208
+2019,"South Yarra","F","Teen",219
+2019,"South Yarra","F","Adult",2302
+2019,"South Yarra","F","Old",953
+2019,"South Yarra","A","Child",422
+2019,"South Yarra","A","Teen",474
+2019,"South Yarra","A","Adult",4374
+2019,"South Yarra","A","Old",1785
+2019,"West Melbourne (Industrial)","M","Child",0
+2019,"West Melbourne (Industrial)","M","Teen",0
+2019,"West Melbourne (Industrial)","M","Adult",0
+2019,"West Melbourne (Industrial)","M","Old",2
+2019,"West Melbourne (Industrial)","F","Child",0
+2019,"West Melbourne (Industrial)","F","Teen",0
+2019,"West Melbourne (Industrial)","F","Adult",0
+2019,"West Melbourne (Industrial)","F","Old",1
+2019,"West Melbourne (Industrial)","A","Child",0
+2019,"West Melbourne (Industrial)","A","Teen",0
+2019,"West Melbourne (Industrial)","A","Adult",0
+2019,"West Melbourne (Industrial)","A","Old",3
+2019,"Melbourne (CBD)","M","Child",227
+2019,"Melbourne (CBD)","M","Teen",365
+2019,"Melbourne (CBD)","M","Adult",5252
+2019,"Melbourne (CBD)","M","Old",557
+2019,"Melbourne (CBD)","F","Child",218
+2019,"Melbourne (CBD)","F","Teen",400
+2019,"Melbourne (CBD)","F","Adult",5034
+2019,"Melbourne (CBD)","F","Old",477
+2019,"Melbourne (CBD)","A","Child",445
+2019,"Melbourne (CBD)","A","Teen",765
+2019,"Melbourne (CBD)","A","Adult",10286
+2019,"Melbourne (CBD)","A","Old",1034
+2019,"Melbourne (CBD)","M","Child",207
+2019,"Melbourne (CBD)","M","Teen",774
+2019,"Melbourne (CBD)","M","Adult",7715
+2019,"Melbourne (CBD)","M","Old",248
+2019,"Melbourne (CBD)","F","Child",222
+2019,"Melbourne (CBD)","F","Teen",1005
+2019,"Melbourne (CBD)","F","Adult",7962
+2019,"Melbourne (CBD)","F","Old",232
+2019,"Melbourne (CBD)","A","Child",429
+2019,"Melbourne (CBD)","A","Teen",1779
+2019,"Melbourne (CBD)","A","Adult",15677
+2019,"Melbourne (CBD)","A","Old",480
+2019,"Melbourne (CBD)","M","Child",313
+2019,"Melbourne (CBD)","M","Teen",449
+2019,"Melbourne (CBD)","M","Adult",8394
+2019,"Melbourne (CBD)","M","Old",348
+2019,"Melbourne (CBD)","F","Child",267
+2019,"Melbourne (CBD)","F","Teen",545
+2019,"Melbourne (CBD)","F","Adult",8106
+2019,"Melbourne (CBD)","F","Old",328
+2019,"Melbourne (CBD)","A","Child",580
+2019,"Melbourne (CBD)","A","Teen",994
+2019,"Melbourne (CBD)","A","Adult",16500
+2019,"Melbourne (CBD)","A","Old",676
+2019,"North Melbourne","M","Child",820
+2019,"North Melbourne","M","Teen",761
+2019,"North Melbourne","M","Adult",6318
+2019,"North Melbourne","M","Old",852
+2019,"North Melbourne","F","Child",865
+2019,"North Melbourne","F","Teen",821
+2019,"North Melbourne","F","Adult",6523
+2019,"North Melbourne","F","Old",981
+2019,"North Melbourne","A","Child",1685
+2019,"North Melbourne","A","Teen",1582
+2019,"North Melbourne","A","Adult",12841
+2019,"North Melbourne","A","Old",1833
+2019,"Melbourne (Remainder)","M","Child",0
+2019,"Melbourne (Remainder)","M","Teen",0
+2019,"Melbourne (Remainder)","M","Adult",0
+2019,"Melbourne (Remainder)","M","Old",0
+2019,"Melbourne (Remainder)","F","Child",0
+2019,"Melbourne (Remainder)","F","Teen",0
+2019,"Melbourne (Remainder)","F","Adult",0
+2019,"Melbourne (Remainder)","F","Old",0
+2019,"Melbourne (Remainder)","A","Child",0
+2019,"Melbourne (Remainder)","A","Teen",0
+2019,"Melbourne (Remainder)","A","Adult",0
+2019,"Melbourne (Remainder)","A","Old",0
+2019,"Southbank","M","Child",222
+2019,"Southbank","M","Teen",121
+2019,"Southbank","M","Adult",3173
+2019,"Southbank","M","Old",427
+2019,"Southbank","F","Child",238
+2019,"Southbank","F","Teen",167
+2019,"Southbank","F","Adult",2930
+2019,"Southbank","F","Old",419
+2019,"Southbank","A","Child",460
+2019,"Southbank","A","Teen",288
+2019,"Southbank","A","Adult",6103
+2019,"Southbank","A","Old",846
+2019,"Southbank","M","Child",415
+2019,"Southbank","M","Teen",292
+2019,"Southbank","M","Adult",7319
+2019,"Southbank","M","Old",521
+2019,"Southbank","F","Child",370
+2019,"Southbank","F","Teen",381
+2019,"Southbank","F","Adult",6837
+2019,"Southbank","F","Old",570
+2019,"Southbank","A","Child",785
+2019,"Southbank","A","Teen",673
+2019,"Southbank","A","Adult",14156
+2019,"Southbank","A","Old",1091
+2019,"West Melbourne (Residential)","M","Child",187
+2019,"West Melbourne (Residential)","M","Teen",192
+2019,"West Melbourne (Residential)","M","Adult",3139
+2019,"West Melbourne (Residential)","M","Old",196
+2019,"West Melbourne (Residential)","F","Child",199
+2019,"West Melbourne (Residential)","F","Teen",196
+2019,"West Melbourne (Residential)","F","Adult",2762
+2019,"West Melbourne (Residential)","F","Old",220
+2019,"West Melbourne (Residential)","A","Child",386
+2019,"West Melbourne (Residential)","A","Teen",388
+2019,"West Melbourne (Residential)","A","Adult",5901
+2019,"West Melbourne (Residential)","A","Old",416
+2019,"Port Melbourne","M","Child",910
+2019,"Port Melbourne","M","Teen",686
+2019,"Port Melbourne","M","Adult",4942
+2019,"Port Melbourne","M","Old",1784
+2019,"Port Melbourne","F","Child",966
+2019,"Port Melbourne","F","Teen",616
+2019,"Port Melbourne","F","Adult",5469
+2019,"Port Melbourne","F","Old",1937
+2019,"Port Melbourne","A","Child",1876
+2019,"Port Melbourne","A","Teen",1302
+2019,"Port Melbourne","A","Adult",10411
+2019,"Port Melbourne","A","Old",3721
+2019,"Port Melbourne","M","Child",45
+2019,"Port Melbourne","M","Teen",40
+2019,"Port Melbourne","M","Adult",578
+2019,"Port Melbourne","M","Old",21
+2019,"Port Melbourne","F","Child",36
+2019,"Port Melbourne","F","Teen",30
+2019,"Port Melbourne","F","Adult",511
+2019,"Port Melbourne","F","Old",22
+2019,"Port Melbourne","A","Child",81
+2019,"Port Melbourne","A","Teen",70
+2019,"Port Melbourne","A","Adult",1089
+2019,"Port Melbourne","A","Old",43
+2020,"Carlton","M","Child",427
+2020,"Carlton","M","Teen",933
+2020,"Carlton","M","Adult",7841
+2020,"Carlton","M","Old",865
+2020,"Carlton","F","Child",390
+2020,"Carlton","F","Teen",1136
+2020,"Carlton","F","Adult",8210
+2020,"Carlton","F","Old",1063
+2020,"Carlton","A","Child",817
+2020,"Carlton","A","Teen",2069
+2020,"Carlton","A","Adult",16051
+2020,"Carlton","A","Old",1928
+2020,"Docklands","M","Child",578
+2020,"Docklands","M","Teen",246
+2020,"Docklands","M","Adult",7111
+2020,"Docklands","M","Old",780
+2020,"Docklands","F","Child",539
+2020,"Docklands","F","Teen",272
+2020,"Docklands","F","Adult",6441
+2020,"Docklands","F","Old",704
+2020,"Docklands","A","Child",1117
+2020,"Docklands","A","Teen",518
+2020,"Docklands","A","Adult",13552
+2020,"Docklands","A","Old",1484
+2020,"East Melbourne","M","Child",132
+2020,"East Melbourne","M","Teen",92
+2020,"East Melbourne","M","Adult",1680
+2020,"East Melbourne","M","Old",678
+2020,"East Melbourne","F","Child",161
+2020,"East Melbourne","F","Teen",106
+2020,"East Melbourne","F","Adult",1775
+2020,"East Melbourne","F","Old",759
+2020,"East Melbourne","A","Child",293
+2020,"East Melbourne","A","Teen",198
+2020,"East Melbourne","A","Adult",3455
+2020,"East Melbourne","A","Old",1437
+2020,"Melbourne (Remainder)","M","Child",5
+2020,"Melbourne (Remainder)","M","Teen",0
+2020,"Melbourne (Remainder)","M","Adult",41
+2020,"Melbourne (Remainder)","M","Old",1
+2020,"Melbourne (Remainder)","F","Child",1
+2020,"Melbourne (Remainder)","F","Teen",1
+2020,"Melbourne (Remainder)","F","Adult",32
+2020,"Melbourne (Remainder)","F","Old",0
+2020,"Melbourne (Remainder)","A","Child",6
+2020,"Melbourne (Remainder)","A","Teen",1
+2020,"Melbourne (Remainder)","A","Adult",73
+2020,"Melbourne (Remainder)","A","Old",1
+2020,"Kensington","M","Child",617
+2020,"Kensington","M","Teen",408
+2020,"Kensington","M","Adult",3824
+2020,"Kensington","M","Old",724
+2020,"Kensington","F","Child",645
+2020,"Kensington","F","Teen",399
+2020,"Kensington","F","Adult",3992
+2020,"Kensington","F","Old",807
+2020,"Kensington","A","Child",1262
+2020,"Kensington","A","Teen",807
+2020,"Kensington","A","Adult",7816
+2020,"Kensington","A","Old",1531
+2020,"Parkville","M","Child",210
+2020,"Parkville","M","Teen",656
+2020,"Parkville","M","Adult",2585
+2020,"Parkville","M","Old",431
+2020,"Parkville","F","Child",215
+2020,"Parkville","F","Teen",975
+2020,"Parkville","F","Adult",2641
+2020,"Parkville","F","Old",605
+2020,"Parkville","A","Child",425
+2020,"Parkville","A","Teen",1631
+2020,"Parkville","A","Adult",5226
+2020,"Parkville","A","Old",1036
+2020,"South Yarra","M","Child",213
+2020,"South Yarra","M","Teen",242
+2020,"South Yarra","M","Adult",2021
+2020,"South Yarra","M","Old",854
+2020,"South Yarra","F","Child",200
+2020,"South Yarra","F","Teen",221
+2020,"South Yarra","F","Adult",2215
+2020,"South Yarra","F","Old",994
+2020,"South Yarra","A","Child",413
+2020,"South Yarra","A","Teen",463
+2020,"South Yarra","A","Adult",4236
+2020,"South Yarra","A","Old",1848
+2020,"West Melbourne (Industrial)","M","Child",0
+2020,"West Melbourne (Industrial)","M","Teen",0
+2020,"West Melbourne (Industrial)","M","Adult",0
+2020,"West Melbourne (Industrial)","M","Old",0
+2020,"West Melbourne (Industrial)","F","Child",0
+2020,"West Melbourne (Industrial)","F","Teen",0
+2020,"West Melbourne (Industrial)","F","Adult",0
+2020,"West Melbourne (Industrial)","F","Old",0
+2020,"West Melbourne (Industrial)","A","Child",0
+2020,"West Melbourne (Industrial)","A","Teen",0
+2020,"West Melbourne (Industrial)","A","Adult",0
+2020,"West Melbourne (Industrial)","A","Old",0
+2020,"Melbourne (CBD)","M","Child",220
+2020,"Melbourne (CBD)","M","Teen",311
+2020,"Melbourne (CBD)","M","Adult",5214
+2020,"Melbourne (CBD)","M","Old",553
+2020,"Melbourne (CBD)","F","Child",216
+2020,"Melbourne (CBD)","F","Teen",355
+2020,"Melbourne (CBD)","F","Adult",4993
+2020,"Melbourne (CBD)","F","Old",484
+2020,"Melbourne (CBD)","A","Child",436
+2020,"Melbourne (CBD)","A","Teen",666
+2020,"Melbourne (CBD)","A","Adult",10207
+2020,"Melbourne (CBD)","A","Old",1037
+2020,"Melbourne (CBD)","M","Child",194
+2020,"Melbourne (CBD)","M","Teen",698
+2020,"Melbourne (CBD)","M","Adult",8220
+2020,"Melbourne (CBD)","M","Old",259
+2020,"Melbourne (CBD)","F","Child",216
+2020,"Melbourne (CBD)","F","Teen",841
+2020,"Melbourne (CBD)","F","Adult",8482
+2020,"Melbourne (CBD)","F","Old",245
+2020,"Melbourne (CBD)","A","Child",410
+2020,"Melbourne (CBD)","A","Teen",1539
+2020,"Melbourne (CBD)","A","Adult",16702
+2020,"Melbourne (CBD)","A","Old",504
+2020,"Melbourne (CBD)","M","Child",294
+2020,"Melbourne (CBD)","M","Teen",395
+2020,"Melbourne (CBD)","M","Adult",8502
+2020,"Melbourne (CBD)","M","Old",355
+2020,"Melbourne (CBD)","F","Child",259
+2020,"Melbourne (CBD)","F","Teen",462
+2020,"Melbourne (CBD)","F","Adult",8186
+2020,"Melbourne (CBD)","F","Old",343
+2020,"Melbourne (CBD)","A","Child",553
+2020,"Melbourne (CBD)","A","Teen",857
+2020,"Melbourne (CBD)","A","Adult",16688
+2020,"Melbourne (CBD)","A","Old",698
+2020,"North Melbourne","M","Child",811
+2020,"North Melbourne","M","Teen",773
+2020,"North Melbourne","M","Adult",6389
+2020,"North Melbourne","M","Old",896
+2020,"North Melbourne","F","Child",896
+2020,"North Melbourne","F","Teen",774
+2020,"North Melbourne","F","Adult",6590
+2020,"North Melbourne","F","Old",1025
+2020,"North Melbourne","A","Child",1707
+2020,"North Melbourne","A","Teen",1547
+2020,"North Melbourne","A","Adult",12979
+2020,"North Melbourne","A","Old",1921
+2020,"Melbourne (Remainder)","M","Child",0
+2020,"Melbourne (Remainder)","M","Teen",0
+2020,"Melbourne (Remainder)","M","Adult",0
+2020,"Melbourne (Remainder)","M","Old",0
+2020,"Melbourne (Remainder)","F","Child",0
+2020,"Melbourne (Remainder)","F","Teen",0
+2020,"Melbourne (Remainder)","F","Adult",0
+2020,"Melbourne (Remainder)","F","Old",0
+2020,"Melbourne (Remainder)","A","Child",0
+2020,"Melbourne (Remainder)","A","Teen",0
+2020,"Melbourne (Remainder)","A","Adult",0
+2020,"Melbourne (Remainder)","A","Old",0
+2020,"Southbank","M","Child",217
+2020,"Southbank","M","Teen",124
+2020,"Southbank","M","Adult",3108
+2020,"Southbank","M","Old",422
+2020,"Southbank","F","Child",229
+2020,"Southbank","F","Teen",145
+2020,"Southbank","F","Adult",2878
+2020,"Southbank","F","Old",428
+2020,"Southbank","A","Child",446
+2020,"Southbank","A","Teen",269
+2020,"Southbank","A","Adult",5986
+2020,"Southbank","A","Old",850
+2020,"Southbank","M","Child",422
+2020,"Southbank","M","Teen",278
+2020,"Southbank","M","Adult",7628
+2020,"Southbank","M","Old",531
+2020,"Southbank","F","Child",373
+2020,"Southbank","F","Teen",348
+2020,"Southbank","F","Adult",7133
+2020,"Southbank","F","Old",592
+2020,"Southbank","A","Child",795
+2020,"Southbank","A","Teen",626
+2020,"Southbank","A","Adult",14761
+2020,"Southbank","A","Old",1123
+2020,"West Melbourne (Residential)","M","Child",197
+2020,"West Melbourne (Residential)","M","Teen",192
+2020,"West Melbourne (Residential)","M","Adult",3320
+2020,"West Melbourne (Residential)","M","Old",211
+2020,"West Melbourne (Residential)","F","Child",210
+2020,"West Melbourne (Residential)","F","Teen",199
+2020,"West Melbourne (Residential)","F","Adult",2998
+2020,"West Melbourne (Residential)","F","Old",240
+2020,"West Melbourne (Residential)","A","Child",407
+2020,"West Melbourne (Residential)","A","Teen",391
+2020,"West Melbourne (Residential)","A","Adult",6318
+2020,"West Melbourne (Residential)","A","Old",451
+2020,"Port Melbourne","M","Child",864
+2020,"Port Melbourne","M","Teen",709
+2020,"Port Melbourne","M","Adult",4761
+2020,"Port Melbourne","M","Old",1812
+2020,"Port Melbourne","F","Child",943
+2020,"Port Melbourne","F","Teen",626
+2020,"Port Melbourne","F","Adult",5289
+2020,"Port Melbourne","F","Old",1994
+2020,"Port Melbourne","A","Child",1807
+2020,"Port Melbourne","A","Teen",1335
+2020,"Port Melbourne","A","Adult",10050
+2020,"Port Melbourne","A","Old",3806
+2020,"Port Melbourne","M","Child",64
+2020,"Port Melbourne","M","Teen",46
+2020,"Port Melbourne","M","Adult",768
+2020,"Port Melbourne","M","Old",33
+2020,"Port Melbourne","F","Child",52
+2020,"Port Melbourne","F","Teen",36
+2020,"Port Melbourne","F","Adult",679
+2020,"Port Melbourne","F","Old",31
+2020,"Port Melbourne","A","Child",116
+2020,"Port Melbourne","A","Teen",82
+2020,"Port Melbourne","A","Adult",1447
+2020,"Port Melbourne","A","Old",64
+2021,"Carlton","M","Child",331
+2021,"Carlton","M","Teen",690
+2021,"Carlton","M","Adult",6639
+2021,"Carlton","M","Old",796
+2021,"Carlton","F","Child",304
+2021,"Carlton","F","Teen",782
+2021,"Carlton","F","Adult",6572
+2021,"Carlton","F","Old",950
+2021,"Carlton","A","Child",635
+2021,"Carlton","A","Teen",1472
+2021,"Carlton","A","Adult",13211
+2021,"Carlton","A","Old",1746
+2021,"Docklands","M","Child",574
+2021,"Docklands","M","Teen",209
+2021,"Docklands","M","Adult",6746
+2021,"Docklands","M","Old",780
+2021,"Docklands","F","Child",514
+2021,"Docklands","F","Teen",231
+2021,"Docklands","F","Adult",6137
+2021,"Docklands","F","Old",714
+2021,"Docklands","A","Child",1088
+2021,"Docklands","A","Teen",440
+2021,"Docklands","A","Adult",12883
+2021,"Docklands","A","Old",1494
+2021,"East Melbourne","M","Child",104
+2021,"East Melbourne","M","Teen",87
+2021,"East Melbourne","M","Adult",1530
+2021,"East Melbourne","M","Old",661
+2021,"East Melbourne","F","Child",111
+2021,"East Melbourne","F","Teen",100
+2021,"East Melbourne","F","Adult",1611
+2021,"East Melbourne","F","Old",755
+2021,"East Melbourne","A","Child",215
+2021,"East Melbourne","A","Teen",187
+2021,"East Melbourne","A","Adult",3141
+2021,"East Melbourne","A","Old",1416
+2021,"Melbourne (Remainder)","M","Child",0
+2021,"Melbourne (Remainder)","M","Teen",0
+2021,"Melbourne (Remainder)","M","Adult",49
+2021,"Melbourne (Remainder)","M","Old",1
+2021,"Melbourne (Remainder)","F","Child",1
+2021,"Melbourne (Remainder)","F","Teen",0
+2021,"Melbourne (Remainder)","F","Adult",27
+2021,"Melbourne (Remainder)","F","Old",0
+2021,"Melbourne (Remainder)","A","Child",1
+2021,"Melbourne (Remainder)","A","Teen",0
+2021,"Melbourne (Remainder)","A","Adult",76
+2021,"Melbourne (Remainder)","A","Old",1
+2021,"Kensington","M","Child",580
+2021,"Kensington","M","Teen",396
+2021,"Kensington","M","Adult",3605
+2021,"Kensington","M","Old",734
+2021,"Kensington","F","Child",584
+2021,"Kensington","F","Teen",397
+2021,"Kensington","F","Adult",3767
+2021,"Kensington","F","Old",809
+2021,"Kensington","A","Child",1164
+2021,"Kensington","A","Teen",793
+2021,"Kensington","A","Adult",7372
+2021,"Kensington","A","Old",1543
+2021,"Parkville","M","Child",191
+2021,"Parkville","M","Teen",578
+2021,"Parkville","M","Adult",2373
+2021,"Parkville","M","Old",407
+2021,"Parkville","F","Child",170
+2021,"Parkville","F","Teen",884
+2021,"Parkville","F","Adult",2302
+2021,"Parkville","F","Old",523
+2021,"Parkville","A","Child",361
+2021,"Parkville","A","Teen",1462
+2021,"Parkville","A","Adult",4675
+2021,"Parkville","A","Old",930
+2021,"South Yarra","M","Child",209
+2021,"South Yarra","M","Teen",199
+2021,"South Yarra","M","Adult",1868
+2021,"South Yarra","M","Old",836
+2021,"South Yarra","F","Child",192
+2021,"South Yarra","F","Teen",214
+2021,"South Yarra","F","Adult",2028
+2021,"South Yarra","F","Old",990
+2021,"South Yarra","A","Child",401
+2021,"South Yarra","A","Teen",413
+2021,"South Yarra","A","Adult",3896
+2021,"South Yarra","A","Old",1826
+2021,"West Melbourne (Industrial)","M","Child",0
+2021,"West Melbourne (Industrial)","M","Teen",0
+2021,"West Melbourne (Industrial)","M","Adult",0
+2021,"West Melbourne (Industrial)","M","Old",0
+2021,"West Melbourne (Industrial)","F","Child",0
+2021,"West Melbourne (Industrial)","F","Teen",0
+2021,"West Melbourne (Industrial)","F","Adult",0
+2021,"West Melbourne (Industrial)","F","Old",0
+2021,"West Melbourne (Industrial)","A","Child",0
+2021,"West Melbourne (Industrial)","A","Teen",0
+2021,"West Melbourne (Industrial)","A","Adult",0
+2021,"West Melbourne (Industrial)","A","Old",0
+2021,"Melbourne (CBD)","M","Child",187
+2021,"Melbourne (CBD)","M","Teen",201
+2021,"Melbourne (CBD)","M","Adult",4273
+2021,"Melbourne (CBD)","M","Old",485
+2021,"Melbourne (CBD)","F","Child",174
+2021,"Melbourne (CBD)","F","Teen",267
+2021,"Melbourne (CBD)","F","Adult",4103
+2021,"Melbourne (CBD)","F","Old",429
+2021,"Melbourne (CBD)","A","Child",361
+2021,"Melbourne (CBD)","A","Teen",468
+2021,"Melbourne (CBD)","A","Adult",8376
+2021,"Melbourne (CBD)","A","Old",914
+2021,"Melbourne (CBD)","M","Child",172
+2021,"Melbourne (CBD)","M","Teen",553
+2021,"Melbourne (CBD)","M","Adult",7582
+2021,"Melbourne (CBD)","M","Old",266
+2021,"Melbourne (CBD)","F","Child",185
+2021,"Melbourne (CBD)","F","Teen",621
+2021,"Melbourne (CBD)","F","Adult",7741
+2021,"Melbourne (CBD)","F","Old",240
+2021,"Melbourne (CBD)","A","Child",357
+2021,"Melbourne (CBD)","A","Teen",1174
+2021,"Melbourne (CBD)","A","Adult",15323
+2021,"Melbourne (CBD)","A","Old",506
+2021,"Melbourne (CBD)","M","Child",227
+2021,"Melbourne (CBD)","M","Teen",303
+2021,"Melbourne (CBD)","M","Adult",7347
+2021,"Melbourne (CBD)","M","Old",333
+2021,"Melbourne (CBD)","F","Child",214
+2021,"Melbourne (CBD)","F","Teen",346
+2021,"Melbourne (CBD)","F","Adult",7011
+2021,"Melbourne (CBD)","F","Old",317
+2021,"Melbourne (CBD)","A","Child",441
+2021,"Melbourne (CBD)","A","Teen",649
+2021,"Melbourne (CBD)","A","Adult",14358
+2021,"Melbourne (CBD)","A","Old",650
+2021,"North Melbourne","M","Child",600
+2021,"North Melbourne","M","Teen",690
+2021,"North Melbourne","M","Adult",5617
+2021,"North Melbourne","M","Old",880
+2021,"North Melbourne","F","Child",579
+2021,"North Melbourne","F","Teen",724
+2021,"North Melbourne","F","Adult",5939
+2021,"North Melbourne","F","Old",916
+2021,"North Melbourne","A","Child",1179
+2021,"North Melbourne","A","Teen",1414
+2021,"North Melbourne","A","Adult",11556
+2021,"North Melbourne","A","Old",1796
+2021,"Melbourne (Remainder)","M","Child",0
+2021,"Melbourne (Remainder)","M","Teen",0
+2021,"Melbourne (Remainder)","M","Adult",0
+2021,"Melbourne (Remainder)","M","Old",0
+2021,"Melbourne (Remainder)","F","Child",0
+2021,"Melbourne (Remainder)","F","Teen",0
+2021,"Melbourne (Remainder)","F","Adult",0
+2021,"Melbourne (Remainder)","F","Old",0
+2021,"Melbourne (Remainder)","A","Child",0
+2021,"Melbourne (Remainder)","A","Teen",0
+2021,"Melbourne (Remainder)","A","Adult",0
+2021,"Melbourne (Remainder)","A","Old",0
+2021,"Southbank","M","Child",197
+2021,"Southbank","M","Teen",105
+2021,"Southbank","M","Adult",2678
+2021,"Southbank","M","Old",395
+2021,"Southbank","F","Child",200
+2021,"Southbank","F","Teen",97
+2021,"Southbank","F","Adult",2528
+2021,"Southbank","F","Old",407
+2021,"Southbank","A","Child",397
+2021,"Southbank","A","Teen",202
+2021,"Southbank","A","Adult",5206
+2021,"Southbank","A","Old",802
+2021,"Southbank","M","Child",380
+2021,"Southbank","M","Teen",262
+2021,"Southbank","M","Adult",7241
+2021,"Southbank","M","Old",548
+2021,"Southbank","F","Child",344
+2021,"Southbank","F","Teen",303
+2021,"Southbank","F","Adult",6844
+2021,"Southbank","F","Old",584
+2021,"Southbank","A","Child",724
+2021,"Southbank","A","Teen",565
+2021,"Southbank","A","Adult",14085
+2021,"Southbank","A","Old",1132
+2021,"West Melbourne (Residential)","M","Child",213
+2021,"West Melbourne (Residential)","M","Teen",179
+2021,"West Melbourne (Residential)","M","Adult",3331
+2021,"West Melbourne (Residential)","M","Old",212
+2021,"West Melbourne (Residential)","F","Child",202
+2021,"West Melbourne (Residential)","F","Teen",194
+2021,"West Melbourne (Residential)","F","Adult",3027
+2021,"West Melbourne (Residential)","F","Old",256
+2021,"West Melbourne (Residential)","A","Child",415
+2021,"West Melbourne (Residential)","A","Teen",373
+2021,"West Melbourne (Residential)","A","Adult",6358
+2021,"West Melbourne (Residential)","A","Old",468
+2021,"Port Melbourne","M","Child",781
+2021,"Port Melbourne","M","Teen",728
+2021,"Port Melbourne","M","Adult",4528
+2021,"Port Melbourne","M","Old",1759
+2021,"Port Melbourne","F","Child",836
+2021,"Port Melbourne","F","Teen",654
+2021,"Port Melbourne","F","Adult",5068
+2021,"Port Melbourne","F","Old",2012
+2021,"Port Melbourne","A","Child",1617
+2021,"Port Melbourne","A","Teen",1382
+2021,"Port Melbourne","A","Adult",9596
+2021,"Port Melbourne","A","Old",3771
+2021,"Port Melbourne","M","Child",66
+2021,"Port Melbourne","M","Teen",51
+2021,"Port Melbourne","M","Adult",880
+2021,"Port Melbourne","M","Old",36
+2021,"Port Melbourne","F","Child",61
+2021,"Port Melbourne","F","Teen",42
+2021,"Port Melbourne","F","Adult",776
+2021,"Port Melbourne","F","Old",32
+2021,"Port Melbourne","A","Child",127
+2021,"Port Melbourne","A","Teen",93
+2021,"Port Melbourne","A","Adult",1656
+2021,"Port Melbourne","A","Old",68

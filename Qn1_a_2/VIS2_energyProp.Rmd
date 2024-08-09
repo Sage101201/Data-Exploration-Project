@@ -1,0 +1,499 @@
+---
+title: "VIS 2"
+author: "Anish S (34113339)"
+date: "2024-04-25"
+output: html_document
+---
+
+```{r}
+# Load necessary libraries
+library(sf)      # For spatial operations
+library(dplyr)   # For data manipulation
+library(tidyr)   # For data tidying
+library(ggplot2) # For visualization
+
+# Read property data and region data
+property_data <- read.csv("ext_cln_energy_data.csv")
+
+# Split Geo Point column into latitude and longitude columns
+property_data <- separate(property_data, `Geo.Point`, into = c("latitude", "longitude"), sep = ",")
+
+# Convert property_data to sf object
+property_sf <- st_as_sf(property_data, coords = c("longitude", "latitude"), crs = 4326)
+
+region_data <- st_read("small-areas-for-census-of-land-use-and-employment-clue.geojson")
+
+# Perform spatial join
+property_region_join <- st_join(property_sf, region_data)
+
+# Aggregate property data by region
+property_count <- property_region_join %>%
+  group_by(featurenam) %>%
+  summarise(PropertyCount = n())
+
+# Create heatmap
+ggplot() +
+  geom_sf(data = region_data, fill = "grey") + # Plot regions
+  geom_sf(data = property_count, aes(fill = PropertyCount), size = 0.2) + # Plot heatmap
+  scale_fill_viridis_c() + # Color scale
+  labs(title = "Property Density Heatmap", fill = "Property Count") # Labels
+
+```
+
+```{r}
+property_region_join
+
+```
+
+```{r}
+library(RColorBrewer)  # For accessing color palettes
+
+# Define custom breaks and colors for the color scale
+custom_breaks <- c(500, 1000, 1500, 2000, 2500, 3000)  # Define custom break points
+custom_colors <- rev(brewer.pal(length(custom_breaks) - 1, "RdYlBu"))  # Use RdYlBu palette from RColorBrewer and reverse the order
+
+
+# Perform spatial join between region_data and property_count
+new_region_data <- st_join(region_data, property_count)
+
+# Now plot the regions based on the PropertyCount variable
+ggplot() +
+  geom_sf(data = new_region_data, aes(fill = PropertyCount, group = featurenam.x), size = 1) + # Color regions based on PropertyCount
+  scale_fill_gradientn(colors = custom_colors, breaks = custom_breaks, labels = scales::comma(custom_breaks)) + # Custom color scale
+  labs(title = "Property Density Heatmap", fill = "Property Count") +  # Labels
+  theme_minimal()  # Optional: Use minimal theme for cleaner appearance
+
+```
+```{r}
+new_region_data
+```
+
+
+```{r}
+# Load necessary libraries
+library(stringr)
+
+# Extracting longitude and latitude from geo_point_2d
+coordinates <- str_match(new_region_data$geo_point_2d, '"lon": ([-0-9.]+), "lat": ([-0-9.]+)')
+
+# Extracted longitude and latitude
+longitude <- as.numeric(coordinates[, 2])
+latitude <- as.numeric(coordinates[, 3])
+
+longitude
+```
+
+```{r}
+# Create plot with geom_label for region labels
+p <- ggplot() +
+  geom_sf(data = new_region_data, aes(fill = PropertyCount), size = 1) +
+  geom_label(data = new_region_data, aes(x = longitude, y = latitude, label = featurenam.x), color = "black", size = 3) +
+  geom_label(data = new_region_data, aes(x = longitude, y = latitude - 0.0015, label = PropertyCount), color = "darkgrey", size = 2.5) +
+  scale_fill_gradientn(colors = custom_colors, breaks = custom_breaks, labels = scales::comma(custom_breaks)) +
+  labs(title = "Property Density Heatmap", fill = "Property Count")
+
+p
+```
+```{r}
+# Save the plot to a file with larger dimensions
+ggsave("vis_2.png", p, width = 12, height = 10, units = "in")
+```
+
+
+```{r}
+region_centroids <- st_centroid(new_region_data)
+
+region_centroids
+```
+
+```{r}
+property_region_join
+```
+
+```{r}
+# Selecting specific columns and creating a new dataframe
+prop_region <- property_region_join %>%
+  select(property_id, featurenam)
+
+# View the new dataframe
+print(prop_region)
+```
+
+
+```{r}
+library(dplyr)
+
+# Assuming 'prop_region' is your renamed dataframe and 'other_dataset' is your second dataset
+
+# Step 1: Match and join the datasets based on property_id
+joined_data <- prop_region %>%
+  inner_join(property_data, by = "property_id")
+
+# Step 2: Filter by featurenam and aggregate data
+result <- joined_data %>%
+  filter(!is.na(featurenam)) %>%  # Remove rows where featurenam is NA
+  group_by(featurenam) %>%
+  summarise(
+    sum_p_res_2011_tJ = (sum(p_res_2011) * 3.6) / 1000000,
+    sum_p_com_2011_tJ = (sum(p_com_2011) * 3.6) / 1000000,
+    sum_total_2011_tJ = (sum(total_2011) * 3.6) / 1000000,
+    sum_p_res_2016_tJ = (sum(p_res_2016) * 3.6) / 1000000,
+    sum_p_com_2016_tJ = (sum(p_com_2016) * 3.6) / 1000000,
+    sum_total_2016_tJ = (sum(total_2016) * 3.6) / 1000000,
+    sum_p_res_2021_tJ = (sum(p_res_2021) * 3.6) / 1000000,
+    sum_p_com_2021_tJ = (sum(p_com_2021) * 3.6) / 1000000,
+    sum_total_2021_tJ = (sum(total_2021) * 3.6) / 1000000,
+    no_property = n()  # Count the number of properties in each featurenam group
+  )
+
+# Assuming 'result' is your aggregated dataframe
+energy_region <- st_drop_geometry(result)
+
+# Print the modified dataframe
+print(result)
+
+# View the resulting aggregated dataframe
+print(energy_region)
+
+```
+
+
+```{r}
+# Specify the file path where you want to save the CSV file
+file_path <- "intermediate_energy.csv"
+
+# Write the dataframe to a CSV file
+write.csv(energy_region, file = file_path, row.names = FALSE)
+```
+
+
+```{r}
+# Assuming 'energy_region' is your dataframe
+selected_columns <- energy_region %>%
+  select(featurenam, no_property, sum_total_2011_tJ, sum_total_2016_tJ, sum_total_2021_tJ)
+
+selected_columns
+```
+
+```{r}
+# Given vectors
+x1 <- c(2011, 2016, 2021)
+y1 <- c(0.66734604, 0.9914074, 1.1188887)
+
+# Years for which interpolation is required
+years_interpolate <- c(2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020)
+
+# Perform linear interpolation
+int_values <- approx(x1, y1, xout = years_interpolate)$x
+
+# Display the interpolated values
+int_values[1]
+
+```
+
+```{r}
+# Slice the desired columns and apply row-wise interpolation
+interpolated_data <- energy_region %>%
+  rowwise() %>%
+  mutate(
+    `2011_energy_tJ` = sum_total_2011_tJ,
+    `2012_energy_tJ` = approx(c(2011, 2016), c(sum_total_2011_tJ, sum_total_2016_tJ), xout = c(2012, 2013, 2014, 2015))$y[1],
+    `2013_energy_tJ` = approx(c(2011, 2016), c(sum_total_2011_tJ, sum_total_2016_tJ), xout = c(2012, 2013, 2014, 2015))$y[2],
+    `2014_energy_tJ` = approx(c(2011, 2016), c(sum_total_2011_tJ, sum_total_2016_tJ), xout = c(2012, 2013, 2014, 2015))$y[3],
+    `2015_energy_tJ` = approx(c(2011, 2016), c(sum_total_2011_tJ, sum_total_2016_tJ), xout = c(2012, 2013, 2014, 2015))$y[4],
+    `2016_energy_tJ` = sum_total_2016_tJ,
+    `2017_energy_tJ` = approx(c(2016, 2021), c(sum_total_2016_tJ, sum_total_2021_tJ), xout = c(2017, 2018, 2019, 2020))$y[1],
+    `2018_energy_tJ` = approx(c(2016, 2021), c(sum_total_2016_tJ, sum_total_2021_tJ), xout = c(2017, 2018, 2019, 2020))$y[2],
+    `2019_energy_tJ` = approx(c(2016, 2021), c(sum_total_2016_tJ, sum_total_2021_tJ), xout = c(2017, 2018, 2019, 2020))$y[3],
+    `2020_energy_tJ` = approx(c(2016, 2021), c(sum_total_2016_tJ, sum_total_2021_tJ), xout = c(2017, 2018, 2019, 2020))$y[4],
+    `2021_energy_tJ` = sum_total_2021_tJ
+  ) %>%
+  select(featurenam, no_property, `2011_energy_tJ`, `2012_energy_tJ`, `2013_energy_tJ`, `2014_energy_tJ`, `2015_energy_tJ`, `2016_energy_tJ`, `2017_energy_tJ`, `2018_energy_tJ`, `2019_energy_tJ`, `2020_energy_tJ`, `2021_energy_tJ`) %>%
+  ungroup()
+
+interpolated_data
+```
+
+```{r}
+# Specify the file path where you want to save the CSV file
+file_path <- "intermediate_energy_2.csv"
+
+# Write the dataframe to a CSV file
+write.csv(interpolated_data, file = file_path, row.names = FALSE)
+```
+
+
+```{r}
+library(ggplot2)
+library(tidyr)
+
+# Reshape data from wide to long format
+interpolated_data_long <- interpolated_data %>%
+  pivot_longer(cols = starts_with("20"),  # Select columns starting with "20" (years)
+               names_to = "year",           # Name of the new 'year' column
+               values_to = "energy_tJ",     # Name of the new 'energy_tJ' column
+               names_pattern = "^(\\d{4})_energy_tJ$")  # Extract year using regex
+
+
+interpolated_data_long
+```
+
+```{r}
+# Define the plot with increased line width
+lineG <- ggplot(interpolated_data_long, aes(x = as.numeric(year), y = energy_tJ, color = featurenam)) +
+  geom_line(size = 0.5) +  # Increase line width to 1.5 (adjust as needed)
+  geom_smooth(method = "loess") +
+  labs(x = "Year", y = "Energy (tJ)", title = "Energy Consumption Over Years by Region", color = "Region") +
+  scale_x_continuous(breaks = seq(2011, 2021, by = 1), labels = as.character(seq(2011, 2021, by = 1))) +
+  theme_minimal() +
+  theme(legend.position = "right",
+        plot.background = element_rect(fill = "white"))  # Set plot background color
+
+# Adjust other theme settings as needed
+lineG <- lineG +
+  theme(panel.background = element_rect(fill = "white"),  # Set panel (plot area) background color
+        panel.grid.major = element_line(color = "gray", linetype = "dashed"),  # Customize grid lines
+        legend.position = "right")   # Adjust legend position as needed
+
+print(lineG)
+```
+
+```{r}
+# Save the plot to a file with larger dimensions
+ggsave("vis_extra_1.png", lineG, width = 12, height = 10, units = "in", dpi = 300)
+```
+
+```{r}
+co2_eng_data = read.csv("australia_co2_emissions_per_energy_consumed.csv")
+
+interpolated_data_long <- interpolated_data_long %>%
+  mutate(year = as.integer(year))
+
+# Join the two datasets based on the 'Year' column
+energy_data_with_co2 <- interpolated_data_long %>%
+  left_join(co2_eng_data, by = c("year" = "Year")) %>%
+  mutate(
+    CO2_offset_tonnes = energy_tJ * CO2_tonnes_per_terajoule
+  ) %>%
+  select (year, no_property, featurenam, energy_tJ, CO2_offset_tonnes)
+
+# View the updated dataset with CO2_offset column
+print(energy_data_with_co2)
+```
+
+```{r}
+# Specify the file path where you want to save the CSV file
+file_path <- "final_energy.csv"
+
+# Write the dataframe to a CSV file
+write.csv(energy_data_with_co2, file = file_path, row.names = FALSE)
+```
+
+```{r}
+# Tree DATA
+```
+
+```{r}
+# Load necessary libraries
+library(sf)      # For spatial operations
+library(dplyr)   # For data manipulation
+library(leaflet) # For interactive maps
+
+# Convert region_data to sf object
+region_sf <- st_as_sf(region_data)
+
+# Read the tree data
+tree_data <- read.csv("ext_cln_tree_data.csv")
+
+# Convert tree_data to sf object
+tree_sf <- st_as_sf(tree_data, coords = c("Longitude", "Latitude"), crs = 4326)
+
+# Create a map using OpenStreetMap tiles
+m <- leaflet() %>%
+  addTiles() # Add OpenStreetMap tiles
+
+# Add polygons for region boundaries
+m <- m %>%
+  addPolygons(
+    data = region_sf,
+    color = "blue", # Border color
+    fillOpacity = 0, # No fill
+    weight = 2 # Border width
+  )
+
+# Add dots for trees located in Parks (coloured 'Dark Green')
+m <- m %>%
+  addCircleMarkers(
+    data = filter(tree_sf, `Located.in` == "Park"),
+    color = "darkgreen",
+    radius = 0.0001,
+    clusterOptions = markerClusterOptions() # Enable clustering
+  )
+
+# Add dots for trees located in Streets (coloured 'Light Green')
+m <- m %>%
+  addCircleMarkers(
+    data = filter(tree_sf, `Located.in` == "Street"),
+    color = "lightgreen",
+    radius = 0.0001,
+    clusterOptions = markerClusterOptions() # Enable clustering
+  )
+
+# Show the map
+m
+
+
+
+```
+
+```{r}
+# Load necessary libraries
+library(ggplot2)
+library(sf)
+
+# Read tree data
+tree_data <- read.csv("ext_cln_tree_data.csv")
+
+# Convert tree data to sf object
+tree_sf <- st_as_sf(tree_data, coords = c("Longitude", "Latitude"), crs = 4326)
+
+# Split the 'geolocation' column by comma
+coordinates <- strsplit(as.character(tree_sf$geolocation), ",")
+
+# Extract latitude and longitude
+latitude <- as.numeric(sapply(coordinates, function(x) as.numeric(x[1])))
+longitude <- as.numeric(sapply(coordinates, function(x) as.numeric(x[2])))
+
+# Add latitude and longitude to the dataframe
+tree_sf$Latitude <- latitude
+tree_sf$Longitude <- longitude
+
+# Get bounding box for the map
+bbox <- st_bbox(tree_sf)
+
+# Create dot density map
+map_plot <- ggplot() +
+  geom_sf(data = region_data, fill = "transparent", color = "black", size = 0.5) + # Add region boundaries
+  geom_point(data = tree_sf, aes(x = Longitude, y = Latitude, color = `Located.in`), alpha = 0.5, size = 0.5) + # Add tree points with conditional coloring
+  scale_color_manual(values = c("Street" = "lightgreen", "Park" = "darkgreen")) + # Define colors for 'Located.in' categories
+  labs(title = "Tree Dot Density Map", x = "Longitude", y = "Latitude")
+
+# Display the map
+print(map_plot)
+
+```
+
+```{r}
+library(ggmap)
+library(viridis)
+
+# Get the background map of Melbourne City
+melbourne_map <- get_stadiamap(bbox = c(left = min(tree_sf$Longitude) - 0.003, bottom = min(tree_sf$Latitude) - 0.003, right = max(tree_sf$Longitude) + 0.003, top = max(tree_sf$Latitude) + 0.003), zoom = 13, maptype = "stamen_terrain_background")
+
+map_plot_back <- ggmap(melbourne_map) +
+  geom_sf(data = region_data, aes(fill = featurenam), color = "red", size = 2, show.legend = "fill", alpha = 0.5, inherit.aes = FALSE) + # Add region boundaries and lightly color each region
+  geom_point(data = tree_sf, aes(x = Longitude, y = Latitude, color = `Located.in`), alpha = 0.5, size = 0.5) + # Add tree points with conditional coloring
+  scale_fill_manual(values = viridis_pal()(n_distinct(region_data$featurenam)), name = "Region") + # Define discrete color scale for regions and add legend title
+  scale_color_manual(values = c("Street" = "yellow", "Park" = "darkgreen"), name = "Tree Location") + # Define colors for 'Located.in' categories and add legend title
+  labs(title = "Tree Dot Density Map", x = "Longitude", y = "Latitude") +
+  guides(fill = guide_legend(title = "Region"),
+         color = guide_legend(title = "Tree Location",
+                              override.aes = list(size = 4)))
+
+
+
+
+# Display the map
+print(map_plot_back)
+
+```
+
+```{r}
+region_sf
+```
+
+```{r}
+# Save the plot to a file with larger dimensions
+ggsave("vis_3.png", map_plot_back, width = 15, height = 15, units = "in")
+```
+
+```{r}
+print(tree_data)
+```
+
+
+
+```{r}
+# Load the required libraries
+library(sf)
+
+tree_updated_data <- read.csv("intermediate_tree.csv")
+tree_updated_data
+
+region_data <- st_read("small-areas-for-census-of-land-use-and-employment-clue.geojson")
+
+# Convert tree_data to sf object
+tree_sf <- st_as_sf(tree_updated_data, coords = c("Longitude", "Latitude"), crs = 4326)
+
+# Perform a spatial join
+joined_tree_sf <- st_join(tree_sf, region_data, join = st_within) # 
+
+# Extract the relevant columns
+result_tree <- joined_tree_sf[, c("CoM.ID", "featurenam", "Located.in")]
+
+# Display the result
+print(result_tree)
+
+```
+
+```{r}
+joined_tree_sf
+```
+
+```{r}
+library(dplyr)
+
+# Step 1: Match and join the datasets based on property_id
+joined_tree_data <- result_tree %>%
+  inner_join(tree_updated_data, by = "CoM.ID")
+
+joined_tree_data
+```
+
+```{r}
+# Step 2: Filter by featurenam and aggregate data
+consolidated_tree_co2 <- joined_tree_data %>%
+  filter(!is.na(featurenam)) %>%  # Remove rows where featurenam is NA
+  group_by(featurenam, Located.in.x) %>%
+  summarise(
+    sum_CLUEArea_CO2offset_tonnes = sum(CO2offset_yr_tonnes),
+    no_trees = n()  # Count the number of properties in each featurenam group
+  )
+
+# Assuming 'result' is your aggregated dataframe
+tree_region <- st_drop_geometry(consolidated_tree_co2)
+
+# Print the modified dataframe
+print(consolidated_tree_co2)
+
+# View the resulting aggregated dataframe
+print(tree_region)
+```
+
+```{r}
+tree_region <- tree_region %>% 
+  rename(located_in = Located.in.x) %>%
+  filter(!is.na(located_in)) %>%
+  filter(located_in != "")
+
+print(tree_region)
+```
+
+
+```{r}
+# Specify the file path where you want to save the CSV file
+file_path <- "final_tree.csv"
+
+# Write the dataframe to a CSV file
+write.csv(tree_region, file = file_path, row.names = FALSE)
+```
